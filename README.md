@@ -2,7 +2,7 @@ Introduction to SignalenSDR
 
 SignalenSDRPro
 
-![[img/signalsdrpro_full.jpg]]
+[![SignalSDR Pro](https://github.com/signalens/docs/blob/343cdaa4f3853195468d8b2a21212459f3cabde8/img/signalsdrpro_full.jpg)]
 
 ## Welcome to Signalens  
 
