@@ -1,10 +1,6 @@
-Introduction to SignalenSDR
-
-SignalenSDRPro
-
-[![SignalSDR Pro](https://github.com/signalens/docs/blob/343cdaa4f3853195468d8b2a21212459f3cabde8/img/signalsdrpro_full.jpg)]
-
 ## Welcome to Signalens  
+
+[![SignalSDR Pro](https://github.com/signalens/docs/blob/343cdaa4f3853195468d8b2a21212459f3cabde8/img/signalsdrpro_full.jpg)](https://github.com/signalens/docs/blob/343cdaa4f3853195468d8b2a21212459f3cabde8/img/signalsdrpro_full.jpg)
 
 Your trusted partner in compact, powerful, and innovative **Software-Defined Radio (SDR)** solutions, crafted to fit comfortably in the palm of your hand.  
 
