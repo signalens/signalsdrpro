@@ -19,8 +19,6 @@ Our flagship product combines portability with performance. Roughly the size of 
 - **Versatile Applications**  
   From signal processing and spectrum analysis to communication systems and beyond, SignalSDR Pro empowers you to tackle complex SDR projects effortlessly.  
 
----
-
 At Signalens, we’re driven by a mission to empower the global SDR community with tools that are compact, powerful, and versatile—tools that inspire innovation and shape the future of wireless communication.  
 
 **Discover the possibilities with SignalSDR Pro.**  
