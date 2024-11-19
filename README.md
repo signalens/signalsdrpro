@@ -14,7 +14,7 @@ Our flagship product combines portability with performance. Roughly the size of 
   Fully compatible with leading SDR hardware like **ADALM-PLUTO**, **USRP B210**, and more, making it an excellent choice for seamless integration into existing workflows.  
 
 - **Extensive Software Support**  
-  Whether you're using **DragonOS**, **LTE Sniffer**, **Open5GS**, **srsRAN**, **GPS-Sim-SDR**, **OpenBTS**, **GQRX**, **MATLAB**, or other popular platforms, SignalSDR Pro ensures smooth operation for a variety of applications.  
+  Whether you're using **GNU Radio**, **DragonOS**, **LTE Sniffer**, **Open5GS**, **srsRAN**, **GPS-Sim-SDR**, **OpenBTS**, **GQRX**, **MATLAB**, or other popular platforms, SignalSDR Pro ensures smooth operation for a variety of applications.  
 
 - **Versatile Applications**  
   From signal processing and spectrum analysis to communication systems and beyond, SignalSDR Pro empowers you to tackle complex SDR projects effortlessly.  
