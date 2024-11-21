@@ -28,9 +28,17 @@ Let’s redefine the way you experience SDR.
 
 ## Tutorial 
 
+- [Transform into USRP B210 or PlutoSDR](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 - [Building a 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/5gs_en.md)
 - [GNU Radio](https://github.com/signalens/signalsdrpro_docs/blob/main/gnuradio.md)
 - [MATLAB](https://github.com/signalens/signalsdrpro_docs/blob/main/matlab.md)
+
+## Compatible software ()
+- [gps-sim-sdr](https://github.com/osqzss/gps-sdr-sim)
+- []()
+
+## Work in progress
+- mmdvm
 
 ## More ideas and tutorial needed
 
