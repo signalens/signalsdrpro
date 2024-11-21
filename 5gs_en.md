@@ -5,6 +5,7 @@ Tested enviroment:
 ### Device setup
 - Jumper settings
 - Boot from SD card with and run as USRP B210/X310
+![How to boot](https://github.com/signalens/signalsdrpro_docs/blob/main/img/boot_ins.png?raw=true)
 
 ### Docker env setup
 
