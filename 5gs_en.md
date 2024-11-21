@@ -2,6 +2,10 @@ Tested enviroment:
 - Host OS: Debian Bookworm
 - Docker
 
+### Device setup
+- Jumper settings
+- Boot from SD card with and run as USRP B210/X310
+
 ### Docker env setup
 
 ```
@@ -140,7 +144,7 @@ sudo docker exec -it hss misc/db/open5gs-dbctl add 001010000000003 \
 ```
 
 ### Startup Script
-Create this start up script
+Create start up script
 ```startbaseband.sh
 #!/bin/bash
 
