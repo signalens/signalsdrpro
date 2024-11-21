@@ -28,9 +28,9 @@ Let’s redefine the way you experience SDR.
 
 ## Tutorial 
 
-- [Building a 5G Basestation](https://github.com/signalens/signalsdrpro_docs/5gs_en.md)
-- [GNU Radio](https://github.com/signalens/signalsdrpro_docs/gnuradio.md)
-- [MATLAB](https://github.com/signalens/signalsdrpro_docs/matlab.md)
+- [Building a 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/5gs_en.md)
+- [GNU Radio](https://github.com/signalens/signalsdrpro_docs/blob/main/gnuradio.md)
+- [MATLAB](https://github.com/signalens/signalsdrpro_docs/blob/main/matlab.md)
 
 ## More ideas and tutorial needed
 
