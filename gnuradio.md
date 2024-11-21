@@ -11,7 +11,7 @@ Tested enviroment:
 ```
 wget https://github.com/signalens/firmware/raw/refs/heads/main/signalsdrpro/signalsdrpro_b210.bin -o BOOT.BIN
 ```
--  Copy BOOT.BIN SD card root folder
+-  Copy BOOT.BIN into SD card root folder
 
 #### - or -
 
@@ -22,4 +22,4 @@ wget https://github.com/signalens/firmware/raw/refs/heads/main/signalsdrpro/sign
 
 - Boot into DragonOS
 - Start GNU Radio as USRP
-- If need to turn into PlutoSDR 
+- Run as B210 or PlutoSDR
