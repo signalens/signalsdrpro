@@ -28,24 +28,30 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 ### Insatll Open5GS
 
+- Build docker images for open5gs EPC/5GC components
 ```
-# Build docker images for open5gs EPC/5GC components
 git clone https://github.com/herlesupreeth/docker_open5gs
 cd docker_open5gs/base
 sudo docker build --no-cache --force-rm -t docker_open5gs .
-# Build docker images for kamailio IMS components
+```
+- Build docker images for kamailio IMS components
+```
 cd ../ims_base
 sudo docker build --no-cache --force-rm -t docker_kamailio .
-# Build docker images for srsRAN_4G eNB + srsUE (4G+5G)
+```
+- Build docker images for srsRAN_4G eNB + srsUE (4G+5G)
+```
 cd ../srslte
 sudo docker build --no-cache --force-rm -t docker_srslte .
-# Build docker images for srsRAN_Project gNB
-# 非常慢 要等很久 吃个饭再回来
+```
+- Build docker images for srsRAN_Project gNB
+```
 cd ../srsran
 sudo docker build --no-cache --force-rm -t docker_srsran .
-# Build docker images for UERANSIM (gNB + UE)
-# 非常慢 要等很久 吃个饭再回来
-cd ../ueransim
+```
+- Build docker images for UERANSIM (gNB + UE)
+```
+- cd ../ueransim
 sudo docker build --no-cache --force-rm -t docker_ueransim .
 ```
 
@@ -82,19 +88,19 @@ sudo cpupower frequency-set -g performance
 ### Choose 1: Running 4G or 5G network
 
 4G baseband
+- 4G Core Network + IMS + SMS over SGs
+- srsRAN eNB using SDR (OTA)，比如B210、X310
 ```
-# 4G Core Network + IMS + SMS over SGs，启动核心网和IMS
 sudo docker compose -f 4g-volte-deploy.yaml up
-# srsRAN eNB using SDR (OTA)，比如B210、X310
 sudo docker compose -f srsenb.yaml up -d && sudo docker container attach srsenb
 ```
 #### - or -
 
 5G baseband
+- 5G Core Network, Core
+- srsRAN gNB using SDR (OTA), as B210/X310
 ```
-# 5G Core Network, Core
 sudo docker compose -f sa-deploy.yaml up
-# srsRAN gNB using SDR (OTA), as B210/X310
 sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
 ```
 
@@ -146,13 +152,10 @@ sudo sysctl -w net.ipv4.ip_forward=1
 sudo cpupower frequency-set -g performance
 
 if [ $1 != '4g' ];
-    # 4G Core Network + IMS + SMS over SGs，Starting core and IMS
     sudo docker compose -f 4g-volte-deploy.yaml up
-    # srsRAN eNB using SDR (OTA), as B210/X310
     sudo docker compose -f srsenb.yaml up -d && sudo docker container attach srsenb
 elif [ $1 != '5g' ];
     sudo docker compose -f sa-deploy.yaml up
-    # srsRAN gNB using SDR (OTA), as B210/X310
     sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
 fi
 ```
@@ -162,6 +165,7 @@ Start 4G baseband
 ./startbaseband.sh 4g
 ```
 
+#### - or -
 Start 5G Network
 ```
 ./startbaseband.sh 4g
