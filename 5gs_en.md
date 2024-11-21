@@ -168,5 +168,5 @@ Start 4G baseband
 #### - or -
 Start 5G Network
 ```
-./startbaseband.sh 4g
+./startbaseband.sh 5g
 ```
