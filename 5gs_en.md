@@ -150,6 +150,9 @@ sudo docker exec -it hss misc/db/open5gs-dbctl add 001010000000003 \
 00112233445566778899AABBCCDDEEFF 000102030405060708090A0B0C0D0E0F
 ```
 
+### Preparing simcard
+You need a "blank" simcard and simcard writer to write into the simcard
+
 ### Startup Script
 Create start up script
 ```startbaseband.sh
