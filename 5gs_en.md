@@ -162,12 +162,14 @@ sudo ufw disable
 sudo sysctl -w net.ipv4.ip_forward=1
 sudo cpupower frequency-set -g performance
 
-if [ $1 != '4g' ];
-    sudo docker compose -f 4g-volte-deploy.yaml up
-    sudo docker compose -f srsenb.yaml up -d && sudo docker container attach srsenb
-elif [ $1 != '5g' ];
-    sudo docker compose -f sa-deploy.yaml up
-    sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
+if [ $1 == '4g' ];
+  sudo docker compose -f 4g-volte-deploy.yaml up
+  sudo docker compose -f srsenb.yaml up -d && sudo docker container attach srsenb
+elif [ $1 == '5g' ];
+  sudo docker compose -f sa-deploy.yaml up
+  sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
+else
+  echo
 fi
 ```
 
