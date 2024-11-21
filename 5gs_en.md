@@ -169,7 +169,7 @@ elif [ $1 == '5g' ];
   sudo docker compose -f sa-deploy.yaml up
   sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
 else
-  echo
+  echo "Choose either 4g or 5g"
 fi
 ```
 
