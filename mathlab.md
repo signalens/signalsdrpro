@@ -18,18 +18,8 @@ wget https://github.com/signalens/firmware/raw/refs/heads/main/signalsdrpro/sign
 - Download https://github.com/signalens/signalsdr-fw-bin/tree/main/pro-2023.2
 - copy all the files into SD card root folder
 
-### MATLAB
-- Start MATLAB
+### DragonOS
 
-### Additional Notes
-Introduction to MATLAB
-- https://www.mathworks.com/products/matlab.html
-
-NI USRP Radio Support from Communications Toolbox
-- https://www.mathworks.com/hardware-support/usrp.html
-
-Use MATLAB with USRP mode
-- https://www.mathworks.com/help/comm/usrpradio.html
-
-Use MATLAB with PlutoSDR
-- https://www.mathworks.com/hardware-support/adalm-pluto-radio.html
+- Boot into DragonOS
+- Start GNU Radio as USRP
+- Run as B210 or PlutoSDR
