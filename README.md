@@ -28,10 +28,5 @@ Let’s redefine the way you experience SDR.
 
 ## Tutorial 
 
-English
-
 - [Building a 5G Basestation](https://github.com/signalens/docs/5gs_en.md)
 
-中文
-
-- [5G 基站搭建](https://github.com/signalens/docs/5gs_cn.md)
