@@ -1,5 +1,5 @@
 Tested enviroment:
-- Host OS: DragonOS
+- Host OS: Any OS with MATLAB installed
 
 ### Device setup
 - Jumper settings
