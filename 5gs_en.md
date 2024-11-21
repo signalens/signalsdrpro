@@ -7,6 +7,12 @@ Tested enviroment:
 - Boot from SD card with and run as USRP B210/X310
 ![How to boot](https://github.com/signalens/signalsdrpro_docs/blob/main/img/boot_ins.png?raw=true)
 
+### SD Card firmware
+- Download firmware and copy it SD card root folder
+```
+wget https://github.com/signalens/firmware/raw/refs/heads/main/signalsdrpro/signalsdrpro_b210.bin -o BOOT.BIN
+```
+
 ### Docker env setup
 
 ```
