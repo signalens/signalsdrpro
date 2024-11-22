@@ -26,16 +26,24 @@ At Signalens, we’re driven by a mission to empower the global SDR community wi
 Let’s redefine the way you experience SDR.
 
 
-## Tutorial 
-
+## Turn SignalSDRPro into compatible mode
 - [Transform into USRP B210 or PlutoSDR](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
+
+## Tutorial 
 - [Building a 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/5gs_en.md)
 - [GNU Radio](https://github.com/signalens/signalsdrpro_docs/blob/main/gnuradio.md)
 - [MATLAB](https://github.com/signalens/signalsdrpro_docs/blob/main/matlab.md)
 
-## Compatible software ()
+## Also able to work with but not limited to
 - [gps-sim-sdr](https://github.com/osqzss/gps-sdr-sim)
-- []()
+- [LTESniffer](https://github.com/SysSec-KAIST/LTESniffer)
+- [osmoBTS](https://github.com/osmocom/osmo-bts)
+- [SDR++](https://www.sdrpp.org/)
+- [gqrx](https://www.gqrx.dk/)
+- [hdsdr](https://www.hdsdr.de/)
+- [urh](https://github.com/jopohl/urh)
+- [SDR console](https://www.sdr-radio.com/console)
+
 
 ## Work in progress
 - mmdvm
@@ -44,3 +52,4 @@ Let’s redefine the way you experience SDR.
 
 - NTP server
 - GPS related
+- OpenBTS
