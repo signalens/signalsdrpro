@@ -138,9 +138,10 @@ sudo docker compose -f sa-deploy.yaml up
  
 *Bind both WestBridge and USRP B20， follow these steps:*
  - Bind WestBridge in PowerShell
- - Run the following command in WSL2 and 
-   - docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
- - After the failure,  USRP B200 will appear in usbipd list
+ - Run the following command in WSL2, it will fail and USRP B200 will appear in usbipd list
+```
+docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
+```
 
 
 ### Provisioning of SIM information in open5gs HSS as follows:
