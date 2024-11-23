@@ -1,5 +1,5 @@
 Tested enviroment:
-- Host OS: Debian Bookworm / WSL
+- Host OS: Debian Bookworm / WSL2
 - Docker
 
 ### Turn Signal SDRPro into USRP B210 compatible mode
@@ -107,7 +107,7 @@ sudo docker compose -f sa-deploy.yaml up
 sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
 ```
 
-### Note for WSL
+### Note for WSL2
 Install usbipd
 ```
 winget install --interactive --exact dorssel.usbipd-win
