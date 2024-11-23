@@ -175,7 +175,11 @@ docker compose -f nr-gnb.yaml up -d && docker container attach nr_gnb
 docker compose -f nr-ue.yaml up -d && docker container attach nr_ue
 ```
 
-### Adding Sim Card
+### Provisioning of SIM information in open5gs HSS as follows:
+Open (http://<DOCKER_HOST_IP>:9999) in a web browser, where <DOCKER_HOST_IP> is the IP of the machine/VM running the open5gs containers. Login with following credentials
+
+Username : admin
+Password : 1423
 
 ```
 sudo docker exec -it hss misc/db/open5gs-dbctl add 001010000000001 \
@@ -185,6 +189,8 @@ sudo docker exec -it hss misc/db/open5gs-dbctl add 001010000000002 \
 sudo docker exec -it hss misc/db/open5gs-dbctl add 001010000000003 \
 00112233445566778899AABBCCDDEEFF 000102030405060708090A0B0C0D0E0F
 ```
+
+
 
 ### Preparing simcard
 You need a "blank" simcard and simcard writer to write into the simcard
