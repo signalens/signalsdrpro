@@ -138,7 +138,7 @@ Bind both WestBridge and USRP B20， follow these steps:
  - Bind WestBridge in Windows PowerShell
  - Run the following command in WSL2, it will fail and USRP B200 will appear in usbipd list
 ```
-docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
+sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
 ```
 
 
