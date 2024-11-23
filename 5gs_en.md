@@ -62,7 +62,7 @@ sudo docker build --no-cache --force-rm -t docker_srsran .
 ```
 - Build docker images for UERANSIM (gNB + UE)
 ```
-- cd ../ueransim
+cd ../ueransim
 sudo docker build --no-cache --force-rm -t docker_ueransim .
 ```
 
