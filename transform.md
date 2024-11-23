@@ -10,8 +10,6 @@ wget https://github.com/signalens/firmware/raw/refs/heads/main/signalsdrpro/sign
 ```
 -  Copy BOOT.BIN into SD card root folder
 
-#### - or
-
 #### ADALM-Ploto compatible mode
 
 - Download https://github.com/signalens/signalsdr-fw-bin/tree/main/pro-2023.2
