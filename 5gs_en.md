@@ -108,25 +108,23 @@ sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
 
 ### Note for WSL2
 
-*All these commands need to run in Windows PowerShell*
-
-Install usbipd
+Install usbipd (Windows PowerShell)
 ```
 winget install --interactive --exact dorssel.usbipd-win
 ```
 
-List USB devices
+List USB devices (Windows PowerShell)
 ```
 usbipd list
 ```
 
-Bind and attach USB devices
+Bind and attach USB devices (Windows PowerShell)
 ```
 usbipd bind --busid 4-4
 usbipd attach --wsl --busid <busid>
 ```
 
-Detach USB devices
+Detach USB devices (Windows PowerShell)
 ```
 usbipd detach --busid <busid>
 ```
@@ -136,8 +134,8 @@ In-order to run the docker with srsgnd, sa-deploy need to be up (in WSL2)
 sudo docker compose -f sa-deploy.yaml up
 ```
  
-*Bind both WestBridge and USRP B20， follow these steps:*
- - Bind WestBridge in PowerShell
+Bind both WestBridge and USRP B20， follow these steps:
+ - Bind WestBridge in Windows PowerShell
  - Run the following command in WSL2, it will fail and USRP B200 will appear in usbipd list
 ```
 docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
