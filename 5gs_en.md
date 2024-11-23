@@ -108,6 +108,9 @@ sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
 ```
 
 ### Note for WSL2
+
+* All these commands need to run in Windows PowerShell
+
 Install usbipd
 ```
 winget install --interactive --exact dorssel.usbipd-win
@@ -127,6 +130,14 @@ Detach USB devices
 ```
 usbipd detach --busid <busid>
 ```
+ 
+Bind both WestBridge and USRP B200
+* Steps:
+ - Bind WestBridge
+ - Run the following command in WSL and 
+ - docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
+ - After the failure,  USRP B200 will appear in usbipd list
+
 
 ### Prepare Startup Script
 Create start up script
