@@ -2,8 +2,8 @@ Tested enviroment:
 - Host OS: Debian Bookworm
 - Docker
 
-### Turn Signal SDRPro into USRP B210
-- Turn SignalSDRPro into USDP B210 or PlutoSDR.  [How？](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
+### Turn Signal SDRPro into USRP B210 compatible mode
+- Turn SignalSDRPro into USDP B210 compatible mode [How？](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
 ### Docker env setup
 
