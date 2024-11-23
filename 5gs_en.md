@@ -2,16 +2,8 @@ Tested enviroment:
 - Host OS: Debian Bookworm
 - Docker
 
-### Device setup
-- Jumper settings
-- Boot from SD card with and run as USRP B210/X310
-![How to boot](https://github.com/signalens/signalsdrpro_docs/blob/main/img/boot_ins.png?raw=true)
-
-### SD Card firmware
-- Download firmware and copy it SD card root folder
-```
-wget https://github.com/signalens/firmware/raw/refs/heads/main/signalsdrpro/signalsdrpro_b210.bin -o BOOT.BIN
-```
+### Turn Signal SDRPro into USRP B210
+- Turn SignalSDRPro into USDP B210 or PlutoSDR.  [How？](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
 ### Docker env setup
 
