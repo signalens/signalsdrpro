@@ -92,7 +92,7 @@ sudo cpupower frequency-set -g performance
 
 4G baseband
 - 4G Core Network + IMS + SMS over SGs
-- srsRAN eNB using SDR (OTA)，比如B210、X310
+- srsRAN eNB using SDR (OTA)，USRP B210/X310 compatible mode
 ```
 sudo docker compose -f 4g-volte-deploy.yaml up
 sudo docker compose -f srsenb.yaml up -d && sudo docker container attach srsenb
