@@ -88,18 +88,17 @@ sudo cpupower frequency-set -g performance
 ```
 
 
-### Choose 1: Running 4G or 5G network
+### Running 4G or 5G network
 
-4G baseband
+#### 4G baseband
 - 4G Core Network + IMS + SMS over SGs
 - srsRAN eNB using SDR (OTA)，USRP B210/X310 compatible mode
 ```
 sudo docker compose -f 4g-volte-deploy.yaml up
 sudo docker compose -f srsenb.yaml up -d && sudo docker container attach srsenb
 ```
-#### - or -
 
-5G baseband
+#### 5G baseband
 - 5G Core Network, Core
 - srsRAN gNB using SDR (OTA), as B210/X310
 ```
@@ -144,8 +143,33 @@ sudo docker compose -f sa-deploy.yaml up
  - After the failure,  USRP B200 will appear in usbipd list
 
 
+### Provisioning of SIM information in open5gs HSS as follows:
+Open (http://<DOCKER_HOST_IP>:9999) in a web browser, where <DOCKER_HOST_IP> is the IP of the machine/VM running the open5gs containers. Login with following credentials
+
+Username : admin
+Password : 1423
+
+```
+IMSI: 001010000000001
+Subscriber Key (K): 00112233445566778899AABBCCDDEEFF
+Operator Key (OPc/OP): 000102030405060708090A0B0C0D0E0F
+
+IMSI: 001010000000002 
+Subscriber Key (K): 00112233445566778899AABBCCDDEEFF
+Operator Key (OPc/OP): 000102030405060708090A0B0C0D0E0F
+
+IMSI: 001010000000003
+Subscriber Key (K): 00112233445566778899AABBCCDDEEFF
+Operator Key (OPc/OP): 000102030405060708090A0B0C0D0E0F
+```
+
+### Preparing simcard
+You need a "blank" simcard and simcard writer to write into the simcard
+
 ### Prepare Startup Script
-Create start up script
+
+To make life simple create startup script
+
 ```startbaseband.sh
 #!/bin/bash
 
@@ -167,7 +191,9 @@ else
 fi
 ```
 
-### Optional: Running 4G/5G emulator
+### Optional: 
+
+#### Running 4G/5G emulator
 
 4G baseband
 ``` 
@@ -176,8 +202,6 @@ docker compose -f srsenb_zmq.yaml up -d && docker container attach srsenb_zmq
 # srsRAN ZMQ 4G UE (RF simulated), Emulator
 docker compose -f srsue_zmq.yaml up -d && docker container attach srsue_zmq
 ```
-
-#### - or -
 
 5G baseband
 ```
@@ -189,40 +213,4 @@ docker compose -f srsue_5g_zmq.yaml up -d && docker container attach srsue_5g_zm
 docker compose -f nr-gnb.yaml up -d && docker container attach nr_gnb
 # UERANSIM NR-UE (RF simulated) Emulator
 docker compose -f nr-ue.yaml up -d && docker container attach nr_ue
-```
-
-### Provisioning of SIM information in open5gs HSS as follows:
-Open (http://<DOCKER_HOST_IP>:9999) in a web browser, where <DOCKER_HOST_IP> is the IP of the machine/VM running the open5gs containers. Login with following credentials
-
-Username : admin
-Password : 1423
-
-```
-IMSI: 001010000000001
-Subscriber Key (K): 00112233445566778899AABBCCDDEEFF
-Operator Key (OPc/OP): 000102030405060708090A0B0C0D0E0F
-
-IMSI: 001010000000002 
-Subscriber Key (K): 00112233445566778899AABBCCDDEEFF
-Operator Key (OPc/OP): 000102030405060708090A0B0C0D0E0F
-
-IMSI: 001010000000003
-Subscriber Key (K): 00112233445566778899AABBCCDDEEFF
-Operator Key (OPc/OP): 000102030405060708090A0B0C0D0E0F
-```
-
-
-
-### Preparing simcard
-You need a "blank" simcard and simcard writer to write into the simcard
-
-Start 4G baseband
-```
-./startbaseband.sh 4g
-```
-
-#### - or -
-Start 5G Network
-```
-./startbaseband.sh 5g
 ```
