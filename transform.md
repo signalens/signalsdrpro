@@ -1,6 +1,6 @@
 ### Device setup
 - Jumper settings
-- Boot from SD card, turn into PlutoSDR or USRP
+- Boot from SD card, turn into ADALM-Ploto compatible mode or USRP B210 compatible mode
 ![How to boot](https://github.com/signalens/signalsdrpro_docs/blob/main/img/boot_ins.png?raw=true)
 
 #### USRP B210 compatible mode
