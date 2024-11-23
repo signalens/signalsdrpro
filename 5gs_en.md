@@ -126,15 +126,21 @@ Bind and attach USB devices
 usbipd bind --busid 4-4
 usbipd attach --wsl --busid <busid>
 ```
+
 Detach USB devices
 ```
 usbipd detach --busid <busid>
+```
+
+In-order to run the docker with srsgnd, sa-deploy need to be up (in WSL2)
+```
+sudo docker compose -f sa-deploy.yaml up
 ```
  
 *Bind both WestBridge and USRP B20， follow these steps:*
  - Bind WestBridge in PowerShell
  - Run the following command in WSL2 and 
- - docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
+   - docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
  - After the failure,  USRP B200 will appear in usbipd list
 
 
