@@ -3,14 +3,16 @@
 - Boot from SD card, turn into PlutoSDR or USRP
 ![How to boot](https://github.com/signalens/signalsdrpro_docs/blob/main/img/boot_ins.png?raw=true)
 
-### SD Card firmware
+#### USRP B210 compatible mode
 - Download
 ```
 wget https://github.com/signalens/firmware/raw/refs/heads/main/signalsdrpro/signalsdrpro_b210.bin -o BOOT.BIN
 ```
 -  Copy BOOT.BIN into SD card root folder
 
-#### - or -
+#### - or
+
+#### ADALM-Ploto compatible mode
 
 - Download https://github.com/signalens/signalsdr-fw-bin/tree/main/pro-2023.2
 - copy all the files into SD card root folder
