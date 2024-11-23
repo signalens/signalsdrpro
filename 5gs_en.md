@@ -13,16 +13,17 @@
 - Turn SignalSDRPro into USDP B210 compatible mode [How](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
 ### Docker env setup
-
+Add Docker's official GPG key:
 ```
-# Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
+```
 
-# Add the repository to Apt sources:
+Add the repository to Apt sources:
+```
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
@@ -38,33 +39,36 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 ### Insatll Open5GS
 
-- Build docker images for open5gs EPC/5GC components
+Build docker images for open5gs EPC/5GC components
 ```
 git clone https://github.com/herlesupreeth/docker_open5gs
 cd docker_open5gs/base
 sudo docker build --no-cache --force-rm -t docker_open5gs .
 ```
-- Build docker images for kamailio IMS components
+
+Build docker images for kamailio IMS components
 ```
 cd ../ims_base
 sudo docker build --no-cache --force-rm -t docker_kamailio .
 ```
-- Build docker images for srsRAN_4G eNB + srsUE (4G+5G)
+
+Build docker images for srsRAN_4G eNB + srsUE (4G+5G)
 ```
 cd ../srslte
 sudo docker build --no-cache --force-rm -t docker_srslte .
 ```
-- Build docker images for srsRAN_Project gNB
+
+Build docker images for srsRAN_Project gNB
 ```
 cd ../srsran
 sudo docker build --no-cache --force-rm -t docker_srsran .
 ```
-- Build docker images for UERANSIM (gNB + UE)
+
+Build docker images for UERANSIM (gNB + UE)
 ```
 cd ../ueransim
 sudo docker build --no-cache --force-rm -t docker_ueransim .
 ```
-
 
 ### Compile 4G and 5G baseband
 ```
