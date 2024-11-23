@@ -4,7 +4,7 @@
 ![How to boot](https://github.com/signalens/signalsdrpro_docs/blob/main/img/boot_ins.png?raw=true)
 
 #### USRP B210 compatible mode
-- [Download](https://github.com/signalens/firmware/blob/main/signalsdrpro/signalsdrpro_b210.bin?raw=true) and save as BOOT.BIN
+- Download [signalsdrpro_b210.bin](https://github.com/signalens/firmware/tree/main/signalsdrpro) and save as BOOT.BIN
 -  Copy BOOT.BIN into SD card root folder
 
 #### ADALM-PLUTO compatible mode
