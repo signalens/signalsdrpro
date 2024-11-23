@@ -5,9 +5,8 @@
 ### Phone Setup
 - Android with 5G phone
 - Goto "Developers options"
-- Under "Networking"
-  - Under "5G Network Mode"
-    - Choose "SA+NSA mode"
+- Under "Networking" -> "5G Network Mode"
+  - Choose "SA+NSA mode"
 
 ### Turn Signal SDRPro into USRP B210 compatible mode
 - Turn SignalSDRPro into USDP B210 compatible mode [How](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
