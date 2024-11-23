@@ -115,6 +115,50 @@ sudo docker compose -f sa-deploy.yaml up
 sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
 ```
 
+### Note for WSL
+Install usbipd
+```
+winget install --interactive --exact dorssel.usbipd-win
+```
+
+List USB devices
+```
+usbipd list
+```
+
+Bind and attach USB devices
+```
+usbipd bind --busid 4-4
+usbipd attach --wsl --busid <busid>
+```
+Detach USB devices
+```
+usbipd detach --busid <busid>
+```
+
+### Prepare Startup Script
+Create start up script
+```startbaseband.sh
+#!/bin/bash
+
+set -a
+source .env
+
+sudo ufw disable
+sudo sysctl -w net.ipv4.ip_forward=1
+sudo cpupower frequency-set -g performance
+
+if [ $1 == '4g' ];
+  sudo docker compose -f 4g-volte-deploy.yaml up
+  sudo docker compose -f srsenb.yaml up -d && sudo docker container attach srsenb
+elif [ $1 == '5g' ];
+  sudo docker compose -f sa-deploy.yaml up
+  sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
+else
+  echo "Choose either 4g or 5g"
+fi
+```
+
 ### Optional: Running 4G/5G emulator
 
 4G baseband
@@ -152,29 +196,6 @@ sudo docker exec -it hss misc/db/open5gs-dbctl add 001010000000003 \
 
 ### Preparing simcard
 You need a "blank" simcard and simcard writer to write into the simcard
-
-### Startup Script
-Create start up script
-```startbaseband.sh
-#!/bin/bash
-
-set -a
-source .env
-
-sudo ufw disable
-sudo sysctl -w net.ipv4.ip_forward=1
-sudo cpupower frequency-set -g performance
-
-if [ $1 == '4g' ];
-  sudo docker compose -f 4g-volte-deploy.yaml up
-  sudo docker compose -f srsenb.yaml up -d && sudo docker container attach srsenb
-elif [ $1 == '5g' ];
-  sudo docker compose -f sa-deploy.yaml up
-  sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
-else
-  echo "Choose either 4g or 5g"
-fi
-```
 
 Start 4G baseband
 ```
