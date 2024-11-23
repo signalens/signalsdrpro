@@ -1,5 +1,5 @@
 Tested enviroment:
-- Host OS: Debian Bookworm
+- Host OS: Debian Bookworm / WSL
 - Docker
 
 ### Turn Signal SDRPro into USRP B210 compatible mode
