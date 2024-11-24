@@ -1,7 +1,7 @@
 # 0x00 DragonOS
 Download DragonOS from https://cemaxecuter.com/
 And Install to hard disk
-![[img/Pasted image 20241124232043.jpeg]]
+![[https://github.com/signalens/signalsdrpro_docs/blob/main/img/Pasted%20image%2020241124201200.jpeg]]
 # 0x01 OpenBTS
 The official version is too old, so here we choose to update it to support Ubuntu 20.04 and 22.04 versions
 official version: https://github.com/RangeNetworks/openbts
