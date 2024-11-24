@@ -1,7 +1,7 @@
 # 0x00 DragonOS
 Download DragonOS from https://cemaxecuter.com/
 And Install to hard disk
-![[SDR/images/Pasted image 20241124232043.jpeg]]
+![[img/Pasted image 20241124232043.jpeg]]
 # 0x01 OpenBTS
 The official version is too old, so here we choose to update it to support Ubuntu 20.04 and 22.04 versions
 official version: https://github.com/RangeNetworks/openbts
@@ -32,8 +32,8 @@ config Control.LUR.OpenRegistration .*
 ```
 
 Set the mobile network to 2G mode and search for the network
-![[SDR/images/Pasted image 20241124220043.jpeg]]
-![[SDR/images/Pasted image 20241124215951.jpeg]]
+![[img/Pasted image 20241124220043.jpeg]]
+![[img/Pasted image 20241124215951.jpeg]]
 
 Close Service
 ```
@@ -49,7 +49,7 @@ vi config.json
 Change enabled of call to true so that you can make calls
 ```
 
-![[SDR/images/Pasted image 20241124231658.jpeg]]
+![[img/Pasted image 20241124231658.jpeg]]
 
 ```
 ./main_uhd.py -h uhd --sip
@@ -60,11 +60,11 @@ uhd_usrp_probe
 ```
 
 Mobile phone can access the network
-![[SDR/images/Pasted image 20241124230417.jpeg]]
+![[img/Pasted image 20241124230417.jpeg]]
 
 After the mobile phone is connected to the network, the record can be seen on the terminal, as well as the assigned mobile phone number
-![[SDR/images/Pasted image 20241124230200.jpeg]]
+![[img/Pasted image 20241124230200.jpeg]]
 
 Based on the assigned phone number, you can make a call
 
-![[SDR/images/Pasted image 20241124230428.jpeg]]
+![[img/Pasted image 20241124230428.jpeg]]
