@@ -30,7 +30,7 @@ Let’s redefine the way you experience SDR.
 - [Transform into USRP B210 or PlutoSDR](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
 ## Tutorial 
-- [Building a 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/5gs_en.md)
+- [Building a 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/open5gs.md)
 - [GNU Radio](https://github.com/signalens/signalsdrpro_docs/blob/main/gnuradio.md)
 - [MATLAB](https://github.com/signalens/signalsdrpro_docs/blob/main/matlab.md)
 - [GSM Base Station](https://github.com/signalens/signalsdrpro_docs/blob/main/GSM_Base_Station.md)
