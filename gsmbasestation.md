@@ -1,6 +1,6 @@
 ### DragonOS
 - Download DragonOS from https://cemaxecuter.com and install to hard disk
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_dragonos.jpeg)
+![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_dragonos.jpeg)
 
 ### OpenBTS
 - The official version is too old, so here we choose to update it to support Ubuntu 20.04 and 22.04 versions
@@ -39,8 +39,8 @@ config Control.LUR.OpenRegistration .*
 
 - Set the mobile network to 2G mode and search for the network
 
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_phone1.jpeg)
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_phone2.jpeg)
+![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_phone1.jpeg)
+![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_phone2.jpeg)
 
 - Close Service
 ```
@@ -55,7 +55,7 @@ vi config.json
 ```
 - Change enabled of call to true so that you can make calls
 
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_config.jpeg)
+![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_config.jpeg)
 
 ```
 ./main_uhd.py -h uhd --sip
