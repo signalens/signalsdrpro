@@ -2,7 +2,6 @@
 
 - download from [gqrx](https://www.gqrx.dk) and [cubicsdr](https://cubicsdr.com)
 - windows can use [PothosSDR](https://github.com/pothosware/PothosSDR) to run gqrx/CubicSDR and gnuradio
-- used b210 mode or plutosdr mode
 
 ![gqrx](https://github.com/signalens/signalsdrpro_docs/blob/main/img/easysdr/gqrx.jpeg)
 
