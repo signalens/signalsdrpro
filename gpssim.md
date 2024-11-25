@@ -9,6 +9,7 @@ gcc gpssim.c -lm -O3 -o gps-sdr-sim
 ```
 
 - download brdc
+
 https://cddis.nasa.gov/archive/gnss/data/daily/
 
 - make gps signal file
@@ -36,5 +37,7 @@ plutoplayer -t gpssim.bin -a -10.0
 
 ```
 
-- Use GPS Test Plus to test, clearing the agps information will result in faster positioning
+- Use GPS Test Plus to test
+
+tips: clearing the agps information will result in faster positioning
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gpssim/gpssim.jpeg)
