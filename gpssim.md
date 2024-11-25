@@ -40,4 +40,4 @@ plutoplayer -t gpssim.bin -a -10.0
 - Use GPS Test Plus to test
 
 tips: clearing the agps information will result in faster positioning
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gpssim/gpssim.jpeg)
+![GPS Test Plus](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gpssim/gpssim.jpeg)

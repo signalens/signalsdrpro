@@ -1,6 +1,6 @@
 ### DragonOS
 - Download DragonOS from https://cemaxecuter.com and install to hard disk
-![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_dragonos.jpeg)
+![DragonOS](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_dragonos.jpeg)
 
 ### OpenBTS
 - The official version is too old, so here we choose to update it to support Ubuntu 20.04 and 22.04 versions
@@ -69,11 +69,11 @@ uhd_usrp_probe
 
 - Mobile phone can access the network
 
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_phone3.jpeg)
+![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_phone3.jpeg)
 
 - After the mobile phone is connected to the network, the record can be seen on the terminal, as well as the assigned mobile phone number
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_state.jpeg)
+![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_state.jpeg)
 
 - Based on the assigned phone number, you can make a call
 
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_phone4.jpeg)
+![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_phone4.jpeg)
