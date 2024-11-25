@@ -1,4 +1,4 @@
-Tested enviroment:
+### Tested enviroment:
 - Host OS: Any OS with MATLAB installed
 
 ### Device setup
