@@ -150,7 +150,19 @@ Bind both WestBridge and USRP B20， follow these steps:
 ```
 sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
 ```
+### Additional steps needed if using Virtual Machine or WSL
 
+![Load usrp_b200_fw.hex](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/load_firmware.png?raw=true)
+
+If there is a load usrp_b200_fw.hex, need to make sure bind both WestBridge and USRP B200 device
+
+![Bind both USB](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/wsl_bind_usb.png?raw=true)
+
+### Successful execution
+
+![Open5gs run](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/open5gs_good_exec.png?raw=true)
+
+![Phone baseband](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/phone_baseband.jpg?raw=true)
 
 ### Provisioning of SIM information in open5gs HSS as follows:
 Open (http://<DOCKER_HOST_IP>:9999) in a web browser, where <DOCKER_HOST_IP> is the IP of the machine/VM running the open5gs containers. Login with following credentials
