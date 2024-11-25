@@ -2,7 +2,7 @@ Tested enviroment:
 - Host OS: DragonOS
 
 ### Device setup
-- Turn SignalSDRPro into USDP B210 or PlutoSDR.  [How？](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
+- Turn SignalSDRPro into USDP B210 compatible mode or ADALM-PLUTO compatible mode [How](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
 ### DragonOS
 
