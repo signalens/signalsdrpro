@@ -33,7 +33,7 @@ Let’s redefine the way you experience SDR.
 - [Building a 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/open5gs.md)
 - [GNU Radio](https://github.com/signalens/signalsdrpro_docs/blob/main/gnuradio.md)
 - [MATLAB](https://github.com/signalens/signalsdrpro_docs/blob/main/matlab.md)
-- [GSM Base Station](https://github.com/signalens/signalsdrpro_docs/blob/main/GSM_Base_Station.md)
+- [GSM Base Station](https://github.com/signalens/signalsdrpro_docs/blob/main/gsmbasestation.md)
 
 ## Also able to work with but not limited to
 - [gps-sim-sdr](https://github.com/osqzss/gps-sdr-sim)
