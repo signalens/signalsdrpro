@@ -53,4 +53,3 @@ Let’s redefine the way you experience SDR.
 
 - NTP server
 - GPS related
-- OpenBTS
