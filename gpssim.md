@@ -1,6 +1,6 @@
 ### GPS Simulator
 
-- download gps-sdr-sim
+- download [gps-sdr-sim](https://github.com/osqzss/gps-sdr-sim)
 
 ```bash
 git clone https://github.com/osqzss/gps-sdr-sim.git
@@ -8,10 +8,7 @@ cd gps-sdr-sim
 gcc gpssim.c -lm -O3 -o gps-sdr-sim
 ```
 
-- download brdc
-
-https://cddis.nasa.gov/archive/gnss/data/daily/
-
+- download [brdc](https://cddis.nasa.gov/archive/gnss/data/daily/)
 - make gps signal file
 
 ``` bash
