@@ -35,7 +35,7 @@ Let’s redefine the way you experience SDR.
 - [MATLAB](https://github.com/signalens/signalsdrpro_docs/blob/main/matlab.md)
 - [GSM Base Station](https://github.com/signalens/signalsdrpro_docs/blob/main/gsmbasestation.md)
 - [GPS Signal Simulator](https://github.com/signalens/signalsdrpro_docs/blob/main/gpssim.md)
-- [GRQX..ext](https://github.com/signalens/signalsdrpro_docs/blob/main/easysdr.md)
+- [GRQX..Ext](https://github.com/signalens/signalsdrpro_docs/blob/main/easysdr.md)
 ## Also able to work with but not limited to
 - [gps-sim-sdr](https://github.com/osqzss/gps-sdr-sim)
 - [LTESniffer](https://github.com/SysSec-KAIST/LTESniffer)
