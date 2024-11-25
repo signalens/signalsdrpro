@@ -37,15 +37,10 @@ Let’s redefine the way you experience SDR.
 - [GPS Signal Simulator](https://github.com/signalens/signalsdrpro_docs/blob/main/gpssim.md)
 - [GRQX..Ext](https://github.com/signalens/signalsdrpro_docs/blob/main/easysdr.md)
 ## Also able to work with but not limited to
-- [gps-sim-sdr](https://github.com/osqzss/gps-sdr-sim)
+- [yatebts](https://github.com/yatevoip/yatebts)
 - [LTESniffer](https://github.com/SysSec-KAIST/LTESniffer)
 - [osmoBTS](https://github.com/osmocom/osmo-bts)
-- [SDR++](https://www.sdrpp.org/)
-- [gqrx](https://www.gqrx.dk/)
-- [hdsdr](https://www.hdsdr.de/)
-- [urh](https://github.com/jopohl/urh)
-- [SDR console](https://www.sdr-radio.com/console)
-
+- [OpenAirInterface](https://openairinterface.org)
 
 ## Work in progress
 - mmdvm
