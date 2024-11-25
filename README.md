@@ -1,7 +1,7 @@
 ## Welcome to Signalens  
 
-[![SignalSDR Pro](https://github.com/signalens/docs/blob/343cdaa4f3853195468d8b2a21212459f3cabde8/img/signalsdrpro_full.jpg)](https://github.com/signalens/docs/blob/343cdaa4f3853195468d8b2a21212459f3cabde8/img/signalsdrpro_full.jpg)
-[![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/17ea99625f2264fbc4b9003eff2a50a7158eb52c/img/signalsdrpro_naked.jpg)](https://github.com/signalens/signalsdrpro_docs/blob/17ea99625f2264fbc4b9003eff2a50a7158eb52c/img/signalsdrpro_naked.jpg)
+![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/readme/signalsdrpro_full.jpg?raw=true)
+![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
 
 Your trusted partner in compact, powerful, and innovative **Software-Defined Radio (SDR)** solutions, crafted to fit comfortably in the palm of your hand.  
 
