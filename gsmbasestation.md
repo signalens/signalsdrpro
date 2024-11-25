@@ -1,5 +1,6 @@
 ### DragonOS
 - Download [DragonOS](https://cemaxecuter.com) and install to hard disk
+
 ![DragonOS](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_dragonos.jpeg)
 
 ### OpenBTS
@@ -39,6 +40,7 @@ config Control.LUR.OpenRegistration .*
 
 - Set the mobile network to 2G mode and search for the network
 
+
 ![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_phone1.jpeg)
 ![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_phone2.jpeg)
 
@@ -72,6 +74,7 @@ uhd_usrp_probe
 ![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_phone3.jpeg)
 
 - After the mobile phone is connected to the network, the record can be seen on the terminal, as well as the assigned mobile phone number
+
 ![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_state.jpeg)
 
 - Based on the assigned phone number, you can make a call
