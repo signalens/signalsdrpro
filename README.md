@@ -9,7 +9,7 @@ Your trusted partner in compact, powerful, and innovative **Software-Defined Rad
 
 Our flagship product combines portability with performance. Roughly the size of a credit card or a Raspberry Pi, it’s the perfect companion for professionals and hobbyists alike who need powerful tools without the bulk.  
 
-### Why Choose SignalSDR Pro?  
+### Why Choose SignalSD RPro?  
 
 - **Unmatched Compatibility**  
   Fully compatible with leading SDR hardware like **ADALM-PLUTO**, **USRP B210**, and more, making it an excellent choice for seamless integration into existing workflows.  
@@ -26,7 +26,7 @@ At Signalens, we’re driven by a mission to empower the global SDR community wi
 Let’s redefine the way you experience SDR.
 
 
-## Turn SignalSDRPro into compatible mode
+## Turn SignalSDR Pro into compatible mode
 - [Transform into USRP B210 or PlutoSDR](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
 ## Tutorial 
