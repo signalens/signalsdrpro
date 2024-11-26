@@ -50,7 +50,7 @@ Max Bandwidth: 85 kHz
 - [MATLAB](https://github.com/signalens/signalsdrpro_docs/blob/main/matlab.md)
 - [GSM Base Station](https://github.com/signalens/signalsdrpro_docs/blob/main/gsmbasestation.md)
 - [GPS Signal Simulator](https://github.com/signalens/signalsdrpro_docs/blob/main/gpssim.md)
-- [GQRX/SDR#/urh ..Ext](https://github.com/signalens/signalsdrpro_docs/blob/main/easysdr.md)
+- [GQRX, SDR#, urh and etc](https://github.com/signalens/signalsdrpro_docs/blob/main/easysdr.md)
 
 ## Also able to work with but not limited to
 - [yatebts](https://github.com/yatevoip/yatebts)
