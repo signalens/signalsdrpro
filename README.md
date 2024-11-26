@@ -25,6 +25,22 @@ At Signalens, we’re driven by a mission to empower the global SDR community wi
 **Discover the possibilities with SignalSDR Pro.**  
 Let’s redefine the way you experience SDR.
 
+### Specification
+
+Transceiver Chipset: AD9361
+Frequency Range: 70 MHz - 6 GHz
+Interfaces: Gigabit Ethernet, USB 3.0
+External Clock Reference: Yes
+Sampling Rate: 61.44 MHz
+Resolution: 12 bits
+Sample Rate: 61.44 MSPS
+Transmit Channels: 2
+Receive Channels: 2
+Duplexing Mode: Full
+Max Bandwidth: 85 kHz
+
+[SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
+
 ## Turn SignalSDR Pro into compatible mode
 - [Transform into USRP B210 or PlutoSDR](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
