@@ -13,24 +13,24 @@ gcc gpssim.c -lm -O3 -o gps-sdr-sim
 
 ``` bash
 # make static singal file
-gps-sdr-sim -e brdc3300.24n  -s 2500000 -l 27.988499, 86.925082,8848
+./gps-sdr-sim -e brdc3300.24n  -s 2500000 -l 27.988499, 86.925082,8848
 
 # make dynamic signal file, latitude and longitude are written in the file
-gps-sdr-sim -e brdc3300.24n -g triumphv3.txt
-gps-sdr-sim -e brdc3300.24n -x circle_llh.csv
-gps-sdr-sim -e brdc3300.24n -u circle.csv
+./gps-sdr-sim -e brdc3300.24n -g triumphv3.txt
+./gps-sdr-sim -e brdc3300.24n -x circle_llh.csv
+./gps-sdr-sim -e brdc3300.24n -u circle.csv
 ```
 
 - send gps signal used b210 mode
 
 ```bash
-gps-sdr-sim-uhd.py -t gpssim.bin -s 2500000 -x 60
+./gps-sdr-sim-uhd.py -t gpssim.bin -s 2500000 -x 60
 ```
 	
 - send gps signal used plutosdr mode
 
 ``` bash
-plutoplayer -t gpssim.bin -a -10.0
+./plutoplayer -t gpssim.bin -a -10.0
 
 ```
 
