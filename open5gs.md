@@ -1,5 +1,5 @@
 ### Tested enviroment:
-- Host OS: Debian Bookworm / WSL2
+- Host OS: Debian Bookworm / WSL2 / DragonOS
 - Docker
 
 ### Phone Setup
