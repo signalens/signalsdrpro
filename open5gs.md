@@ -19,8 +19,6 @@ sudo apt-get install ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
 ```
 
-Add the repository to Apt sources:
-
 #### Debian
 ```
 sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
