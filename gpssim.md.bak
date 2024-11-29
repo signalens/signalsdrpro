@@ -37,4 +37,4 @@ gcc gpssim.c -lm -O3 -o gps-sdr-sim
 - Use GPS Test Plus to test
 
 tips: clearing the agps information will result in faster positioning
-![GPS Test Plus](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gpssim/gpssim.png)
+![GPS Test Plus](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gpssim/gpssim.jpeg)
