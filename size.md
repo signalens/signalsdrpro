@@ -1,4 +1,4 @@
-### Device size comparison
+### Device Size
  - Flipper Zero
  - SignalSDR Pro
  - NVIDIA Jetson AGX Orin DeveloperKit

@@ -5,6 +5,8 @@
 
 Your trusted partner in compact, powerful, and innovative **Software-Defined Radio (SDR)** solutions, crafted to fit comfortably in the palm of your hand.  
 
+- [Device Size](https://github.com/signalens/signalsdrpro_docs/blob/main/size.md)
+
 ## Introducing SignalSDR Pro  
 
 Our flagship product combines portability with performance. Roughly the size of a credit card or a Raspberry Pi, it’s the perfect companion for professionals and hobbyists alike who need powerful tools without the bulk.  
