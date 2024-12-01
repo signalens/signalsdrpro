@@ -14,7 +14,7 @@
 
 ![](https://github.com/signalens/signalsdrpro/blob/main/img/size/size2.png?raw=true)
 
- -  - Raspberry Pi 5 + Waveshare UPS HAT(E)
+ - Raspberry Pi 5 + Waveshare UPS HAT(E)
  - SignalSDR Pro
 
 ![](https://github.com/signalens/signalsdrpro/blob/main/img/size/size3.png?raw=true)
