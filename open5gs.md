@@ -1,6 +1,9 @@
 ### Tested enviroment:
-- Host OS: Debian Bookworm / WSL2 / DragonOS
-- Docker
+- Host OS: Windows 11
+- Virtual Machine: VMware Workstation 17
+- VM: Debian 12 / DragonOS
+- Tested with Docker
+- WSL2 still work in progress
 
 ### Phone Setup
 - Android with 5G phone
