@@ -59,6 +59,7 @@ Max Bandwidth: 85 kHz
 - [LTESniffer](https://github.com/SysSec-KAIST/LTESniffer)
 - [osmoBTS](https://github.com/osmocom/osmo-bts)
 - [OpenAirInterface](https://openairinterface.org)
+- [5ghoul-5g-nr-attacks](https://github.com/signalens/5ghoul-5g-nr-attacks)
 
 ## Work in progress
 - mmdvm
