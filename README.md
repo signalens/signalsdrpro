@@ -2,16 +2,12 @@
 
 Your trusted partner in compact, powerful, and innovative **Software-Defined Radio (SDR)** solutions, crafted to fit comfortably in the palm of your hand.  
 
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_full.jpg?raw=true)
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
-
-## Actual size
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/size/cc.jpg?raw=true)
-[More](https://github.com/signalens/signalsdrpro_docs/blob/main/size.md)
-
 ## Introducing SignalSDR Pro  
 
 Our flagship product combines portability with performance. Roughly the size of a credit card or a Raspberry Pi, it’s the perfect companion for professionals and hobbyists alike who need powerful tools without the bulk.  
+
+## Actual size
+![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/size/cc.jpg?raw=true)
 
 ### Why Choose SignalSD RPro?  
 
@@ -28,6 +24,12 @@ At Signalens, we’re driven by a mission to empower the global SDR community wi
 
 **Discover the possibilities with SignalSDR Pro.**  
 Let’s redefine the way you experience SDR.
+
+## Cover and heat sink
+
+![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_full.jpg?raw=true)
+![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
+[More details](https://github.com/signalens/signalsdrpro_docs/blob/main/size.md)
 
 ### Specification
 
