@@ -1,4 +1,4 @@
-### Tested enviroment:
+### Enviroment:
 - Host OS: DragonOS
 
 ### Device setup
