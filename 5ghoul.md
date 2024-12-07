@@ -6,10 +6,17 @@
 
 ### Phone Setup
 - Android with 5G phone
+  - 5G must supprt band N78
+- Disable "Smart 5G"
 - Goto "Developers options"
 - Under "Networking" -> "5G Network Mode"
   - Choose "SA+NSA mode"
   - Turn on USB Debug
+  - Disable "Veify apps over USB"
+  - Disable "Verify bytecode of debuggable apps"
+  - Disable "Verify bytecode of debuggable apps"
+  - Enable "Disable child process restrictions"
+  - Enbale "Disable permission monitoring"
 
 ### Turn SignalSDR Pro into USRP B210 compatible mode
 - Turn SignalSDR Pro into USDP B210 compatible mode [How](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
@@ -35,6 +42,21 @@ Setup
   - "ADBDevice" change to the device it
 - Goto configs/5gnr_gnb and run cp n78.106.conf b210.conf
 - Edit configs/5gnr_gnb/open5gs.yaml and delete all the IPv6 related "- ::1"
+
+Simcard settings (both simcard and in configs/5gnr_gnb_config.json/)
+```
+IMSI: 001010000000001
+Subscriber Key (K): 00112233445566778899AABBCCDDEEFF
+Operator Key (OPc/OP): 000102030405060708090A0B0C0D0E0F
+
+IMSI: 001010000000002 
+Subscriber Key (K): 00112233445566778899AABBCCDDEEFF
+Operator Key (OPc/OP): 000102030405060708090A0B0C0D0E0F
+
+IMSI: 001010000000003
+Subscriber Key (K): 00112233445566778899AABBCCDDEEFF
+Operator Key (OPc/OP): 000102030405060708090A0B0C0D0E0F
+```
   
 Testing
 ```
