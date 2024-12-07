@@ -25,11 +25,10 @@ At Signalens, we’re driven by a mission to empower the global SDR community wi
 **Discover the possibilities with SignalSDR Pro.**  
 Let’s redefine the way you experience SDR.
 
-### Cover and heat sink
+### Cover, heat sink and size comparison
 
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_full.jpg?raw=true)
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
-[More details](https://github.com/signalens/signalsdrpro_docs/blob/main/size.md)
+[More details on size comparison](https://github.com/signalens/signalsdrpro_docs/blob/main/size.md)
 
 ### Specification
 
