@@ -43,11 +43,13 @@ External Clock Reference: Yes
 Sampling Rate: 61.44 MHz
 Resolution: 12 bits
 Sample Rate: 61.44 MSPS
+GPSDO: Yes
 Transmit Channels: 2
 Receive Channels: 2
 Duplexing Mode: Full
 Max Bandwidth: 85 kHz
 ```
+
 ![SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
 
 ### Turn SignalSDR Pro into compatible mode
