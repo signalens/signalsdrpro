@@ -30,6 +30,10 @@ Let’s redefine the way you experience SDR.
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
 [More details on size comparison](https://github.com/signalens/signalsdrpro_docs/blob/main/size.md)
 
+
+### Size comparison 
+SigalSDR PRO Vs [others](https://signalens.com/compare/)
+
 ### Specification
 ```
 Transceiver Chipset: AD9361
