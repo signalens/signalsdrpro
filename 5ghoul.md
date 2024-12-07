@@ -37,9 +37,11 @@ Install
 
 Setup
 - run 3rd-party/adb/adb devices to check device id
-- Edit configs/global_config.json and configs/5gnr_gnb_config.json look for UEModemManager
+- Edit configs/global_config.json look for UEModemManager
   - "EnableADB" change to true
-  - "ADBDevice" change to the device it
+  - "ADBDevice" change to the device ID
+- Goto configs/5gnr_gnb_config.json
+  - "ADBDevice" leave empty
 - Goto configs/5gnr_gnb and run cp n78.106.conf signalsdrpro.conf
 - Edit configs/5gnr_gnb/open5gs.yaml and delete all the IPv6 related "- ::1"
 - Simcard settings (both simcard and in configs/5gnr_gnb_config.json)
