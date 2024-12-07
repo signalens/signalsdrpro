@@ -42,7 +42,7 @@ Setup
   - "ADBDevice" change to the device it
 - Goto configs/5gnr_gnb and run cp n78.106.conf signalsdrpro.conf
 - Edit configs/5gnr_gnb/open5gs.yaml and delete all the IPv6 related "- ::1"
-- Simcard settings (both simcard and in configs/5gnr_gnb_config.json/)
+- Simcard settings (both simcard and in configs/5gnr_gnb_config.json)
 ```
 IMSI: 001010000000001
 Subscriber Key (K): 00112233445566778899AABBCCDDEEFF
