@@ -68,5 +68,4 @@ Fuzz
 sudo bin/5g_fuzzer --MCC=001 --MNC=01 --GlobalTimeout=false --EnableMutation=true --BaseStationConfigFile b210.conf
 ```
 
-
--- Still WIP --
+![Phone baseband](https://github.com/signalens/signalsdrpro/blob/main/img/5ghoul/fuzzing.png?raw=true)

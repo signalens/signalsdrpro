@@ -47,6 +47,7 @@ Max Bandwidth: 85 kHz
 - [Transform into USRP B210 or PlutoSDR](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
 ## Tutorial 
+- [Fuzzing 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/5ghoul.md)
 - [Building a 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/open5gs.md)
 - [GNU Radio](https://github.com/signalens/signalsdrpro_docs/blob/main/gnuradio.md)
 - [MATLAB](https://github.com/signalens/signalsdrpro_docs/blob/main/matlab.md)
@@ -59,7 +60,6 @@ Max Bandwidth: 85 kHz
 - [LTESniffer](https://github.com/SysSec-KAIST/LTESniffer)
 - [osmoBTS](https://github.com/osmocom/osmo-bts)
 - [OpenAirInterface](https://openairinterface.org)
-- [5ghoul-5g-nr-attacks](https://github.com/signalens/5ghoul-5g-nr-attacks)
 
 ## Work in progress
 - mmdvm
