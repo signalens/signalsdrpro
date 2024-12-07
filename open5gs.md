@@ -1,4 +1,4 @@
-### Tested enviroment:
+### Enviroment:
 - Host OS: Windows 11
 - Virtual Machine: VMware Workstation 17
 - VM: Debian 12 / DragonOS
