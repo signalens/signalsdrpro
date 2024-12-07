@@ -2,11 +2,11 @@
 
 Your trusted partner in compact, powerful, and innovative **Software-Defined Radio (SDR)** solutions, crafted to fit comfortably in the palm of your hand.  
 
-## Introducing SignalSDR Pro  
+### Introducing SignalSDR Pro  
 
 Our flagship product combines portability with performance. Roughly the size of a credit card or a Raspberry Pi, it’s the perfect companion for professionals and hobbyists alike who need powerful tools without the bulk.  
 
-## Actual size
+### Actual size
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/size/cc.jpg?raw=true)
 
 ### Why Choose SignalSD RPro?  
@@ -25,7 +25,7 @@ At Signalens, we’re driven by a mission to empower the global SDR community wi
 **Discover the possibilities with SignalSDR Pro.**  
 Let’s redefine the way you experience SDR.
 
-## Cover and heat sink
+### Cover and heat sink
 
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_full.jpg?raw=true)
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
@@ -47,10 +47,10 @@ Max Bandwidth: 85 kHz
 
 ![SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
 
-## Turn SignalSDR Pro into compatible mode
+### Turn SignalSDR Pro into compatible mode
 - [Transform into USRP B210 or PlutoSDR](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
-## Tutorial 
+### Tutorial 
 - [Fuzzing 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/5ghoul.md)
 - [Building a 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/open5gs.md)
 - [GNU Radio](https://github.com/signalens/signalsdrpro_docs/blob/main/gnuradio.md)
@@ -59,15 +59,15 @@ Max Bandwidth: 85 kHz
 - [GPS Signal Simulator](https://github.com/signalens/signalsdrpro_docs/blob/main/gpssim.md)
 - [GQRX, SDR#, urh and etc](https://github.com/signalens/signalsdrpro_docs/blob/main/easysdr.md)
 
-## Also able to work with but not limited to
+### Also able to work with but not limited to
 - [yatebts](https://github.com/yatevoip/yatebts)
 - [LTESniffer](https://github.com/SysSec-KAIST/LTESniffer)
 - [osmoBTS](https://github.com/osmocom/osmo-bts)
 - [OpenAirInterface](https://openairinterface.org)
 
-## Work in progress
+### Work in progress
 - mmdvm
 - NTP server
 - UHD related
 
-## More ideas and tutorial needed, create an "issue"
+### More ideas and tutorial needed, create an "issue"
