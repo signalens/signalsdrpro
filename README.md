@@ -1,11 +1,13 @@
-## Welcome to Signalens  
-
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/readme/signalsdrpro_full.jpg?raw=true)
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
+## Welcome to Signalens 
 
 Your trusted partner in compact, powerful, and innovative **Software-Defined Radio (SDR)** solutions, crafted to fit comfortably in the palm of your hand.  
 
-- [Device Size](https://github.com/signalens/signalsdrpro_docs/blob/main/size.md)
+![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_full.jpg?raw=true)
+![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
+
+## Actual size
+![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/size/cc.jpg?raw=true)
+[More](https://github.com/signalens/signalsdrpro_docs/blob/main/size.md)
 
 ## Introducing SignalSDR Pro  
 
@@ -63,8 +65,7 @@ Max Bandwidth: 85 kHz
 
 ## Work in progress
 - mmdvm
-
-## More ideas and tutorial needed
-
 - NTP server
 - UHD related
+
+## More ideas and tutorial needed, create an "issue"
