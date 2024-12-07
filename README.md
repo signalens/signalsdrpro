@@ -32,7 +32,7 @@ Let’s redefine the way you experience SDR.
 
 
 ### Size comparison 
-SigalSDR PRO Vs [others](https://signalens.com/compare/)
+SigalSDR PRO versus [others](https://signalens.com/compare/)
 
 ### Specification
 ```
