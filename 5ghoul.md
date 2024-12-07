@@ -40,7 +40,7 @@ Setup
 - Edit configs/global_config.json, look for UEModemManager
   - "EnableADB" change to true
   - "ADBDevice" change to the device it
-- Goto configs/5gnr_gnb and run cp n78.106.conf b210.conf
+- Goto configs/5gnr_gnb and run cp n78.106.conf signalsdrpro.conf
 - Edit configs/5gnr_gnb/open5gs.yaml and delete all the IPv6 related "- ::1"
 
 Simcard settings (both simcard and in configs/5gnr_gnb_config.json/)
@@ -65,7 +65,7 @@ sudo bin/5g_fuzzer --MCC=001 --MNC=01 --GlobalTimeout=false --EnableMutation=fal
 
 Fuzz
 ```
-sudo bin/5g_fuzzer --MCC=001 --MNC=01 --GlobalTimeout=false --EnableMutation=true --BaseStationConfigFile b210.conf
+sudo bin/5g_fuzzer --MCC=001 --MNC=01 --GlobalTimeout=false --EnableMutation=true --BaseStationConfigFile signalsdrpro.conf
 ```
 
 ![Phone baseband](https://github.com/signalens/signalsdrpro/blob/main/img/5ghoul/fuzzing.png?raw=true)
