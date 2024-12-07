@@ -31,7 +31,7 @@ Let’s redefine the way you experience SDR.
 [More details on size comparison](https://github.com/signalens/signalsdrpro_docs/blob/main/size.md)
 
 ### Specification
-
+```
 Transceiver Chipset: AD9361
 Frequency Range: 70 MHz - 6 GHz
 Interfaces: Gigabit Ethernet, USB 3.0
@@ -43,7 +43,7 @@ Transmit Channels: 2
 Receive Channels: 2
 Duplexing Mode: Full
 Max Bandwidth: 85 kHz
-
+```
 ![SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
 
 ### Turn SignalSDR Pro into compatible mode
