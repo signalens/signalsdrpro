@@ -131,13 +131,9 @@ sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
 
 ### Additional steps needed if using Virtual Machine
 
-Need to make few more tries if these error appears. Make sure attatch "WestBridge" follow by "USRP B200" 
+Need to make few more tries if these error appears. Make sure attatch "WestBridge" follow by "USRP B200". One at a time
 
 ![Load usrp_b200_fw.hex](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/load_firmware.png?raw=true)
-
-Load usrp_b200_fw.hex and "srsRAN ERROR: Unable to create radio session." need to make sure bind both WestBridge and USRP B200 device
-
-![Bind both USB](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/wsl_bind_usb.png?raw=true)
 
 ### Note for WSL2
 
@@ -161,6 +157,8 @@ Detach USB devices (Windows PowerShell)
 ```
 usbipd detach --busid <busid>
 ```
+
+![Bind both USB](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/wsl_bind_usb.png?raw=true)
 
 ### Successful execution
 
