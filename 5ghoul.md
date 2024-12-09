@@ -1,7 +1,7 @@
 ### Enviroment:
 - Host OS: Windows 11 / Linux
 - Virtual Machine: VirtualBox or VMware Workstation 17
-- Disable Hyper-V if using Windows. [Check Here](https://github.com/xwings/tuya/blob/master/notes/turnoffwindows11hyperv.md). This is for better USB performance
+- [Disable Hyper-V if using Windows](https://github.com/xwings/tuya/blob/master/notes/turnoffwindows11hyperv.md). This is for better USB performance
 - VM: Debian 12
 - Docker
 
