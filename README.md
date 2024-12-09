@@ -24,10 +24,6 @@ At Signalens, we’re driven by a mission to empower the global SDR community wi
 **Discover the possibilities with SignalSDR Pro.**  
 Let’s redefine the way you experience SDR.
 
-### SignalSDR Pro versus Others
-
-Checkout Signalens [official page](https://signalens.com/compare/)
-
 ### Cover, heat sink and size 
 
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
@@ -50,6 +46,10 @@ Max Bandwidth: 85 kHz
 ```
 
 ![SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
+
+## SignalSDR Pro versus Others
+
+Checkout Signalens [official page](https://signalens.com/compare/)
 
 ## Tutorial and use cases
 
