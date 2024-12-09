@@ -1,7 +1,7 @@
 ### Enviroment:
 - Host OS: Windows 11 / Linux
 - Virtual Machine: VirtualBox or VMware Workstation 17
-- Disable Hyper-V if using Windows
+- Disable Hyper-V if using Windows. [Here](https://github.com/xwings/tuya/blob/master/notes/turnoffwindows11hyperv.md) This is for better USB performance
 - VM: Debian 12
 - Docker
 
@@ -13,7 +13,7 @@
 
 ### Steps to disbale Hyper-V
 
-[Here](https://github.com/xwings/tuya/blob/master/notes/turnoffwindows11hyperv.md)
+
 
 ### Turn SignalSDR Pro into USRP B210 compatible mode
 - Turn SignalSDR Pro into USDP B210 compatible mode [How](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
