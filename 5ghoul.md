@@ -1,8 +1,9 @@
 ### Enviroment:
-- Host OS: Windows 11
-- Virtual Machine: VMware Workstation 17
-- VM: Debian 12 / DragonOS
-- Tested with Docker
+- Host OS: Windows 11 / Linux
+- Virtual Machine: VirtualBox or VMware Workstation 17
+- Disable Hyper-V if using Windows. [Check Here](https://github.com/xwings/tuya/blob/master/notes/turnoffwindows11hyperv.md). This is for better USB performance
+- VM: Debian 12
+- Docker
 
 ### Phone Setup
 - Android with 5G phone
