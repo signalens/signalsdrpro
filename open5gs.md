@@ -1,15 +1,19 @@
 ### Enviroment:
-- Host OS: Windows 11
-- Virtual Machine: VMware Workstation 17
-- VM: Debian 12 / DragonOS
-- Tested with Docker
-- WSL2 still work in progress
+- Host OS: Windows 11 / Linux
+- Virtual Machine: VirtualBox or VMware Workstation 17
+- Disable Hyper-V if using Windows
+- VM: Debian 12
+- Docker
 
 ### Phone Setup
 - Android with 5G phone
 - Goto "Developers options"
 - Under "Networking" -> "5G Network Mode"
   - Choose "SA+NSA mode"
+
+### Steps to disbale Hyper-V
+
+[Here](https://github.com/xwings/tuya/blob/master/notes/turnoffwindows11hyperv.md)
 
 ### Turn SignalSDR Pro into USRP B210 compatible mode
 - Turn SignalSDR Pro into USDP B210 compatible mode [How](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
