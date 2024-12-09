@@ -76,4 +76,4 @@ Checkout Signalens [official page](https://signalens.com/compare/)
 - NTP server
 - UHD related
 
-### More ideas and tutorial needed, create an "issue"
+**More ideas and tutorial needed, join us [here](https://github.com/signalens/signalsdrpro/issues)**
