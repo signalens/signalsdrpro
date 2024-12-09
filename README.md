@@ -6,7 +6,6 @@ Your trusted partner in compact, powerful, and innovative **Software-Defined Rad
 
 Our flagship product combines portability with performance. Roughly the size of a credit card or a Raspberry Pi, it’s the perfect companion for professionals and hobbyists alike who need powerful tools without the bulk.  
 
-### Size of a name card
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/size/cc.jpg?raw=true)
 
 ### Why Choose SignalSD RPro?  
