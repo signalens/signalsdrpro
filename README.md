@@ -6,7 +6,7 @@ Your trusted partner in compact, powerful, and innovative **Software-Defined Rad
 
 Our flagship product combines portability with performance. Roughly the size of a credit card or a Raspberry Pi, it’s the perfect companion for professionals and hobbyists alike who need powerful tools without the bulk.  
 
-### Actual size
+### Size of a name card
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/size/cc.jpg?raw=true)
 
 ### Why Choose SignalSD RPro?  
@@ -25,14 +25,14 @@ At Signalens, we’re driven by a mission to empower the global SDR community wi
 **Discover the possibilities with SignalSDR Pro.**  
 Let’s redefine the way you experience SDR.
 
+### SignalSDR Pro versus Others
+
+Checkout Signalens [official page](https://signalens.com/compare/)
+
 ### Cover, heat sink and size 
 
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
 [More details on size](https://github.com/signalens/signalsdrpro_docs/blob/main/size.md)
-
-### SignalSDR Pro versus Others
-
-Checkout Signalens [official page](https://signalens.com/compare/)
 
 ### Specification
 ```
