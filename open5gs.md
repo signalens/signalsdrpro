@@ -11,10 +11,6 @@
 - Under "Networking" -> "5G Network Mode"
   - Choose "SA+NSA mode"
 
-### Steps to disbale Hyper-V
-
-
-
 ### Turn SignalSDR Pro into USRP B210 compatible mode
 - Turn SignalSDR Pro into USDP B210 compatible mode [How](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
