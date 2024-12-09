@@ -129,6 +129,16 @@ sudo docker compose -f sa-deploy.yaml up
 sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
 ```
 
+### Additional steps needed if using Virtual Machine
+
+Need to make few more tries if these error appears. Make sure attatch "WestBridge" follow by "USRP B200" 
+
+![Load usrp_b200_fw.hex](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/load_firmware.png?raw=true)
+
+Load usrp_b200_fw.hex and "srsRAN ERROR: Unable to create radio session." need to make sure bind both WestBridge and USRP B200 device
+
+![Bind both USB](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/wsl_bind_usb.png?raw=true)
+
 ### Note for WSL2
 
 Install usbipd (Windows PowerShell)
@@ -152,30 +162,12 @@ Detach USB devices (Windows PowerShell)
 usbipd detach --busid <busid>
 ```
 
-In-order to run the docker with srsgnd, sa-deploy need to be up (in WSL2)
-```
-sudo docker compose -f sa-deploy.yaml up
-```
- 
-Bind both WestBridge and USRP B20， follow these steps:
- - Bind WestBridge in Windows PowerShell
- - Run the following command in WSL2, it will fail and USRP B200 will appear in usbipd list
-```
-sudo docker compose -f srsgnb.yaml up -d && sudo docker container attach srsgnb
-```
-### Additional steps needed if using Virtual Machine or WSL
-
-![Load usrp_b200_fw.hex](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/load_firmware.png?raw=true)
-
-Load usrp_b200_fw.hex and "srsRAN ERROR: Unable to create radio session." need to make sure bind both WestBridge and USRP B200 device
-
-![Bind both USB](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/wsl_bind_usb.png?raw=true)
-
 ### Successful execution
 
 ![Open5gs run](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/open5gs_good_exec.png?raw=true)
 
 ![Phone baseband](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/phone_baseband.jpg?raw=true)
+
 
 ### Provisioning of SIM information in open5gs HSS as follows:
 Open (http://<DOCKER_HOST_IP>:9999) in a web browser, where <DOCKER_HOST_IP> is the IP of the machine/VM running the open5gs containers. Login with following credentials
