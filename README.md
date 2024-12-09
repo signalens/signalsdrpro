@@ -28,14 +28,11 @@ Let’s redefine the way you experience SDR.
 ### Cover, heat sink and size 
 
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
-[More details on size comparison](https://github.com/signalens/signalsdrpro_docs/blob/main/size.md)
+[More details on size](https://github.com/signalens/signalsdrpro_docs/blob/main/size.md)
 
-### Signal Versus Others
+### SignalSDR Pro versus Others
 
 Checkout Signalens [official page](https://signalens.com/compare/)
-
-### Size comparison 
-SigalSDR PRO versus [others](https://signalens.com/compare/)
 
 ### Specification
 ```
