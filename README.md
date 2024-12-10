@@ -26,7 +26,7 @@ Let’s redefine the way you experience SDR.
 
 ### Cover, heat sink and size 
 
-![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
+![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdr-pro-pcba-and-enclosure-01_jpg_md-xl.jpg?raw=true)
 [More details on size](https://github.com/signalens/signalsdrpro_docs/blob/main/size.md)
 
 ### Specification
