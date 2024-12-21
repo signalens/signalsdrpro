@@ -10,8 +10,8 @@
   - 5G must supprt band N78
 - Disable "Smart 5G"
 - Goto "Developers options"
-- Under "Networking" -> "5G Network Mode"
-  - Choose "SA+NSA mode"
+  - Under "Networking" -> "5G Network Mode"
+    - Choose "SA+NSA mode"
   - Turn on USB Debug
   - Disable "Veify apps over USB"
   - Disable "Verify bytecode of debuggable apps"
