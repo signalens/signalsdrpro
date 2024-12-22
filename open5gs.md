@@ -18,7 +18,7 @@
 Add Docker's official GPG key:
 ```
 sudo apt-get update
-sudo apt-get install ca-certificates curl
+sudo apt-get install ca-certificates curl git vim
 sudo install -m 0755 -d /etc/apt/keyrings
 ```
 
@@ -46,7 +46,7 @@ sudo apt-get update
 
 #### Install Docker
 ```
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin git vim
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
 ### Insatll Open5GS
