@@ -34,16 +34,16 @@ Let’s redefine the way you experience SDR.
 ```
 Transceiver Chipset: AD9361
 Frequency Range: 70 MHz - 6 GHz
-Interfaces: Gigabit Ethernet, USB 3.0
+Interfaces: Gigabit Ethernet, Full Type B USB 3.0, USB OTG, Type C
 External Clock Reference: Yes
-Sampling Rate: 61.44 MHz
 Resolution: 12 bits
+RF Bandwidth: 61.44 MHz
 Sample Rate: 61.44 MSPS
 GPSDO: Yes
 Transmit Channels: 2
 Receive Channels: 2
 Duplexing Mode: Full
-Max Bandwidth: 85 kHz
+Logic Gates: 85 kHz
 ```
 
 ![SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
