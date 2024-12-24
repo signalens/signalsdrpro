@@ -43,7 +43,7 @@ GPSDO: Yes
 Transmit Channels: 2
 Receive Channels: 2
 Duplexing Mode: Full
-Logic Gates: 85 kHz
+Logic Gates: 85k
 GPIO: Full 40 Pins
 ```
 
