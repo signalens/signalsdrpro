@@ -37,7 +37,7 @@ Frequency Range: 70 MHz - 6 GHz
 Interfaces: Gigabit Ethernet, Full Type B USB 3.0, USB OTG, Type C
 External Clock Reference: Yes
 Resolution: 12 bits
-RF Bandwidth: 61.44 MHz
+RF Bandwidth: 56 MHz
 Sample Rate: 61.44 MSPS
 GPSDO: Yes
 Transmit Channels: 2
