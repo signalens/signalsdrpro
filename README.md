@@ -44,6 +44,7 @@ Transmit Channels: 2
 Receive Channels: 2
 Duplexing Mode: Full
 Logic Gates: 85 kHz
+GPIO: Full 40 Pins
 ```
 
 ![SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
