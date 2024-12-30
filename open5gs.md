@@ -53,11 +53,12 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 Clone open5gs
 ```
 git clone https://github.com/herlesupreeth/docker_open5gs
+cd docker_open5gs
 ```
 
 Build docker images for open5gs EPC/5GC components
 ```
-cd docker_open5gs/base
+cd base
 sudo docker build --no-cache --force-rm -t docker_open5gs .
 ```
 
