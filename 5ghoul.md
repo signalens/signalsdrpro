@@ -5,6 +5,9 @@
 - VM: Debian 12
 - Docker
 
+### TL;DR
+[![5G Fuzzing](https://img.youtube.com/vi/XXR_ih3aO1g/0.jpg)](https://www.youtube.com/watch?v=XXR_ih3aO1g)
+
 ### Phone Setup
 - Android with 5G phone
   - 5G must supprt band N78
