@@ -73,4 +73,9 @@ Fuzz
 sudo bin/5g_fuzzer --MCC=001 --MNC=01 --GlobalTimeout=false --EnableMutation=true --BaseStationConfigFile signalsdrpro.conf
 ```
 
+Debug VM
+```
+sudo 3rd-party/oai_5g_sa/cmake_targets/ran_build/build/nr-softmodem --sa --continuous-tx -E -O configs/5gnr_gnb/signalsdrpro.conf
+```
+
 ![Phone baseband](https://github.com/signalens/signalsdrpro/blob/main/img/5ghoul/fuzzing.png?raw=true)
