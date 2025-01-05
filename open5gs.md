@@ -1,8 +1,5 @@
 ### Enviroment:
-- Host OS: Windows 11 / Linux
-- Virtual Machine: VirtualBox or VMware Workstation 17
-- Disable Hyper-V if using Windows. [Check Here](https://github.com/xwings/tuya/blob/master/notes/turnoffwindows11hyperv.md). This is for better USB performance
-- VM: Debian 12
+- Host OS: Debian 12
 - Docker
 
 ### Phone Setup
@@ -139,29 +136,27 @@ Need to make few more tries if these error appears. Make sure attatch "WestBridg
 
 ![Load usrp_b200_fw.hex](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/load_firmware.png?raw=true)
 
-### Note for WSL2
+### Note for WSL2 / Virtual Machine (For Windows Host)
 
-Install usbipd (Windows PowerShell)
+- Install [USRP Driver](http://files.ettus.com/binaries/misc/erllc_uhd_winusb_driver.zip)
+- [Disable Hyper-V if using Windows](https://github.com/xwings/tuya/blob/master/notes/turnoffwindows11hyperv.md)
+- Install usbipd (Windows PowerShell)
 ```
 winget install --interactive --exact dorssel.usbipd-win
 ```
-
-List USB devices (Windows PowerShell)
+- List USB devices (Windows PowerShell)
 ```
 usbipd list
 ```
-
-Bind and attach USB devices (Windows PowerShell)
+- Bind and attach USB devices (Windows PowerShell)
 ```
 usbipd bind --busid 4-4
 usbipd attach --wsl --busid <busid>
 ```
-
-Detach USB devices (Windows PowerShell)
+- Detach USB devices (Windows PowerShell)
 ```
 usbipd detach --busid <busid>
 ```
-
 ![Bind both USB](https://github.com/signalens/signalsdrpro_docs/blob/main/img/open5gs/wsl_bind_usb.png?raw=true)
 
 ### Successful execution
