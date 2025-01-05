@@ -1,8 +1,5 @@
-### Enviroment:
-- Host OS: Windows 11 / Linux
-- Virtual Machine: VirtualBox or VMware Workstation 17
-- [Disable Hyper-V if using Windows](https://github.com/xwings/tuya/blob/master/notes/turnoffwindows11hyperv.md)
-- VM: Debian 12
+### Tested Enviroment:
+- Host OS: Debian 12
 - Docker
 
 ### TL;DR
