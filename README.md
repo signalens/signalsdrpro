@@ -58,6 +58,9 @@ Checkout Signalens [official page](https://signalens.com/compare/)
 ### Turn SignalSDR Pro into compatible mode
 - [Transform into USRP B210 or PlutoSDR](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
+### Diagram
+- [Indept details of SignalSDRPro](https://github.com/signalens/signalsdrpro/blob/f30ee42cdcbf828d3e0e91d53ce8037099570ae0/diagram/SignalSDRPro%20Logic%20diagrams.pdf)
+
 ### Tutorial 
 - [Fuzzing 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/5ghoul.md)
 - [Building a 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/open5gs.md)
