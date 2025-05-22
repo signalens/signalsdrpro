@@ -49,7 +49,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ### Install Open5GS
 Clone open5gs
 ```
-git clone https://github.com/herlesupreeth/docker_open5gs
+git clone https://github.com/signalens/docker_open5gs.git
 cd docker_open5gs
 ```
 
