@@ -114,6 +114,8 @@ sudo cpupower frequency-set -g performance
 
 ### Running 4G or 5G network
 
+Note: Due to Arch Linux not using /etc/timezone, please remove it from the yml file and keep /etc/localtime
+
 #### 4G baseband
 - 4G Core Network + IMS + SMS over SGs
 - srsRAN eNB using SDR (OTA)，USRP B210/X310 compatible mode
