@@ -58,6 +58,18 @@ Checkout Signalens [official page](https://signalens.com/compare/)
 ### Turn SignalSDR Pro into compatible mode
 - [Transform into USRP B210 or PlutoSDR](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
+### Reset SPI
+- Option 1: Reset to default environment and save
+···
+env default -a
+saveenv
+···
+- Option 2: Erase the environment section of flash (more aggressive)
+···
+sf probe
+sf erase 0x100000 0x20000
+···
+
 ### Diagram
 - [Indept details of SignalSDRPro](https://github.com/signalens/signalsdrpro/blob/f30ee42cdcbf828d3e0e91d53ce8037099570ae0/diagram/SignalSDRPro%20Logic%20diagrams.pdf)
 
