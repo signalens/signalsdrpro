@@ -8,7 +8,7 @@ Our flagship product combines portability with performance. Roughly the size of 
 
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdr-pro-01_jpg_md-xl.jpg?raw=true)
 
-### Why Choose SignalSD RPro?  
+### Why Choose SignalSDR Pro?  
 
 - **Unmatched Compatibility**  
   Fully compatible with leading SDR hardware like **ADALM-PLUTO**, **USRP B210**, and more, making it an excellent choice for seamless integration into existing workflows.  
