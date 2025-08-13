@@ -44,6 +44,26 @@ config Control.LUR.OpenRegistration .*
 ![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_phone1.jpeg)
 ![](https://github.com/signalens/signalsdrpro_docs/blob/main/img/gsm/gsm_phone2.jpeg)
 
+- Send an MT SMS from the BTS (CLI)
+
+Please review the TMSIs/IMSIs for the attached handsets. 
+
+```
+tmsis
+```
+
+<img width="1050" height="522" alt="image" src="https://github.com/user-attachments/assets/514a1bb6-4692-4a88-88b7-996099624c48" />
+
+From OpenBTSCLI, you can push a text directly to a given IMSI:
+
+```
+OpenBTS> sendsms <IMSI> <src_number> <message text...>
+# example:
+OpenBTS> sendsms 999700000000001 1 "hi"
+```
+
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/ddba5bf6-cef5-4c8c-bbc8-3a7771203dbc" />
+
 - Close Service
 ```
 fuser -k /usr/local/sbin/sipauthserve
