@@ -49,7 +49,7 @@ SDRPRO B210 Hello World
 - Download [all files](https://github.com/signalens/signalsdrpro/tree/main/bin/adalm-pluto/)
 - copy all files into SD card root folder
 - Power/Console: USB Type C
-- Data: Micro USB port 2
+- Data: Micro USB port 1
 - Optional: Also try [tezuka_fw](https://github.com/F5OEO/tezuka_fw) for more advanced feature
 - Username: root Password: analog
 
