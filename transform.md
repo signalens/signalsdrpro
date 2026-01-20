@@ -14,4 +14,5 @@
 #### ADALM-PLUTO compatible mode
 - Download [all files](https://github.com/signalens/signalsdrpro/tree/main/bin/adalm-pluto/)
 - copy all files into SD card root folder
-- Power: Make sure USB Type C is providing power (also a serial console), PC is connecting to Micro USB port
+- Power: Make sure USB Type C is providing power (also a serial console), PC is connecting to Micro USB port 1
+- Optional: Also try [tezuka_fw](https://github.com/F5OEO/tezuka_fw) for more advanced feature
