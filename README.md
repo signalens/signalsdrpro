@@ -55,20 +55,8 @@ Checkout Signalens [official page](https://signalens.com/compare/)
 
 ## Tutorial and use cases
 
-### Turn SignalSDR Pro into compatible mode
+### Turn SignalSDR Pro into compatible mode (ADALM-PLUTO or USRP B210)
 - [Transform into USRP B210 or PlutoSDR](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
-
-### Reset SPI
-- Option 1: Reset to default environment and save
-```
-env default -a
-saveenv
-```
-- Option 2: Erase the environment section of flash (more aggressive)
-```
-sf probe
-sf erase 0x100000 0x20000
-```
 
 ### Diagram
 - [Indept details of SignalSDRPro](https://github.com/signalens/signalsdrpro/blob/f30ee42cdcbf828d3e0e91d53ce8037099570ae0/diagram/SignalSDRPro%20Logic%20diagrams.pdf)
@@ -93,5 +81,17 @@ sf erase 0x100000 0x20000
 - mmdvm
 - NTP server
 - UHD related
+
+### Reset SPI (Use at your own risk)
+- Option 1: Reset to default environment and save
+```
+env default -a
+saveenv
+```
+- Option 2: Erase the environment section of flash (more aggressive)
+```
+sf probe
+sf erase 0x100000 0x20000
+```
 
 **More ideas and tutorial needed, join us [here](https://github.com/signalens/signalsdrpro/issues)**
