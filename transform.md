@@ -73,7 +73,7 @@ Linux signalsdrpro 6.1.0 #1 SMP PREEMPT Tue Jan 20 11:52:38 CST 2026 armv7l GNU/
 #
 ```
 
-### Reset SPI (Only if stuck at switching between firmware)
+### Reset SPI (Only if stuck at u-boot)
 - Option 1: Reset to default environment and save
 ```
 env default -a
