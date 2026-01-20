@@ -82,16 +82,4 @@ Checkout Signalens [official page](https://signalens.com/compare/)
 - NTP server
 - UHD related
 
-### Reset SPI (Use at your own risk)
-- Option 1: Reset to default environment and save
-```
-env default -a
-saveenv
-```
-- Option 2: Erase the environment section of flash (more aggressive)
-```
-sf probe
-sf erase 0x100000 0x20000
-```
-
 **More ideas and tutorial needed, join us [here](https://github.com/signalens/signalsdrpro/issues)**
