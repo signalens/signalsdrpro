@@ -75,6 +75,11 @@ Linux signalsdrpro 6.1.0 #1 SMP PREEMPT Tue Jan 20 11:52:38 CST 2026 armv7l GNU/
 ```
 
 ### Reset SPI (Only if stuck at u-boot)
+- Connect to Type C port
+```
+screen /dev/ttyUSB1 115200
+```
+- In U-boot mode if SIGNALSDR> appear
 - Option 1: Reset to default environment and save
 ```
 env default -a
