@@ -46,7 +46,7 @@ Duplexing Mode: Full
 Logic Gates: 85k
 GPIO: Full 40 Pins
 ```
-
+![Overview](https://github.com/signalens/signalsdrpro/blob/main/img/transform/layout.png?raw=true)
 ![SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
 
 ## SignalSDR Pro versus Others
