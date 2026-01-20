@@ -11,6 +11,7 @@
 - Copy BOOT.BIN into SD card root folder
 - Power/Console: USB Type C
 - Data: USB type B
+![LED](https://github.com/signalens/signalsdrpro/blob/main/img/transform/b210.png?raw=true)
 
 ```
 PCAP DMA DEST LEN 0xF8007024: 0x000F6EC0
