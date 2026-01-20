@@ -50,6 +50,7 @@ SDRPRO B210 Hello World
 - copy all files into SD card root folder
 - Power/Console: USB Type C
 - Data: Micro USB port 1
+- Receiver: RX1
 - Optional: Also try [tezuka_fw](https://github.com/F5OEO/tezuka_fw) for more advanced feature
 - Username: root Password: analog
 
