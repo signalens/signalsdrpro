@@ -4,7 +4,7 @@
 ![How to boot](https://github.com/signalens/signalsdrpro/blob/main/img/transform/boot_ins.png?raw=true)
 
 ### Connector layout
-![How to boot](https://github.com/signalens/signalsdrpro/blob/main/img/transform/layout.png?raw=true)
+![Overview](https://github.com/signalens/signalsdrpro/blob/main/img/transform/layout.png?raw=true)
 
 #### USRP B210 compatible mode
 - Download [signalsdrpro_b210.bin](https://github.com/signalens/signalsdrpro/tree/main/bin/b210) and save as BOOT.BIN
