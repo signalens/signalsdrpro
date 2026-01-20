@@ -58,10 +58,7 @@ Checkout Signalens [official page](https://signalens.com/compare/)
 ### Turn SignalSDR Pro into compatible mode (ADALM-PLUTO or USRP B210)
 - [Transform into USRP B210 or PlutoSDR](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
-### Diagram
-- [Indept details of SignalSDRPro](https://github.com/signalens/signalsdrpro/blob/f30ee42cdcbf828d3e0e91d53ce8037099570ae0/diagram/SignalSDRPro%20Logic%20diagrams.pdf)
-
-### Tutorial 
+### How-to
 - [Fuzzing 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/5ghoul.md)
 - [Building a 5G Basestation](https://github.com/signalens/signalsdrpro_docs/blob/main/open5gs.md)
 - [GNU Radio](https://github.com/signalens/signalsdrpro_docs/blob/main/gnuradio.md)
@@ -70,7 +67,7 @@ Checkout Signalens [official page](https://signalens.com/compare/)
 - [GPS Signal Simulator](https://github.com/signalens/signalsdrpro_docs/blob/main/gpssim.md)
 - [GQRX, SDR#, urh and etc](https://github.com/signalens/signalsdrpro_docs/blob/main/easysdr.md)
 
-### Also able to work with but not limited to
+### More projects
 - [OpenWiFi](https://github.com/open-sdr/openwifi)
 - [yatebts](https://github.com/yatevoip/yatebts)
 - [LTESniffer](https://github.com/SysSec-KAIST/LTESniffer)
@@ -82,4 +79,22 @@ Checkout Signalens [official page](https://signalens.com/compare/)
 - NTP server
 - UHD related
 
+<<<<<<< HEAD
+=======
+### Diagram
+- [Indept details of SignalSDRPro](https://github.com/signalens/signalsdrpro/blob/f30ee42cdcbf828d3e0e91d53ce8037099570ae0/diagram/SignalSDRPro%20Logic%20diagrams.pdf)
+
+### Reset SPI (Use at your own risk)
+- Option 1: Reset to default environment and save
+```
+env default -a
+saveenv
+```
+- Option 2: Erase the environment section of flash (more aggressive)
+```
+sf probe
+sf erase 0x100000 0x20000
+```
+
+>>>>>>> b8444d1ca62cf54f03f7f0940b0822e922ae9c11
 **More ideas and tutorial needed, join us [here](https://github.com/signalens/signalsdrpro/issues)**
