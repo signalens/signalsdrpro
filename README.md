@@ -79,22 +79,7 @@ Checkout Signalens [official page](https://signalens.com/compare/)
 - NTP server
 - UHD related
 
-<<<<<<< HEAD
-=======
 ### Diagram
 - [Indept details of SignalSDRPro](https://github.com/signalens/signalsdrpro/blob/f30ee42cdcbf828d3e0e91d53ce8037099570ae0/diagram/SignalSDRPro%20Logic%20diagrams.pdf)
 
-### Reset SPI (Use at your own risk)
-- Option 1: Reset to default environment and save
-```
-env default -a
-saveenv
-```
-- Option 2: Erase the environment section of flash (more aggressive)
-```
-sf probe
-sf erase 0x100000 0x20000
-```
-
->>>>>>> b8444d1ca62cf54f03f7f0940b0822e922ae9c11
 **More ideas and tutorial needed, join us [here](https://github.com/signalens/signalsdrpro/issues)**
