@@ -13,6 +13,7 @@ SignalSDR Pro can switch into different software-defined radio (SDR) modes, incl
 - Copy BOOT.BIN into SD card root folder
 - Power/Console: USB Type-C
 - Data: USB Type-B
+  
 ![LED](https://github.com/signalens/signalsdrpro/blob/main/img/transform/b210.png?raw=true)
 
 ```
