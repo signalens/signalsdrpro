@@ -1,14 +1,14 @@
-## Welcome to Signalens 
+## Welcome to Signalens
 
 Your trusted partner in compact, powerful, and innovative **Software-Defined Radio (SDR)** solutions, crafted to fit comfortably in the palm of your hand.  
 
-### Introducing SignalSDR Pro  
+### Introducing SignalSDR Pro
 
 Our flagship product combines portability with performance. Roughly the size of a credit card or a Raspberry Pi, it’s the perfect companion for professionals and hobbyists alike who need powerful tools without the bulk.  
 
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdr-pro-01_jpg_md-xl.jpg?raw=true)
 
-### Why Choose SignalSDR Pro?  
+### Why Choose SignalSDR Pro?
 
 - **Unmatched Compatibility**  
   Fully compatible with leading SDR hardware like **ADALM-PLUTO**, **USRP B210**, and more, making it an excellent choice for seamless integration into existing workflows.  
@@ -24,7 +24,7 @@ At Signalens, we’re driven by a mission to empower the global SDR community wi
 **Discover the possibilities with SignalSDR Pro.**  
 Let’s redefine the way you experience SDR.
 
-### Cover, heat sink and size 
+### Cover, heat sink and size
 
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/signalsdr-pro-pcba-and-enclosure-01_jpg_md-xl.jpg?raw=true)
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/main/img/readme/cc_trans.png?raw=true)
@@ -34,7 +34,7 @@ Let’s redefine the way you experience SDR.
 ```
 Transceiver Chipset: AD9361
 Frequency Range: 70 MHz - 6 GHz
-Interfaces: Gigabit Ethernet, Full Type B USB 3.0, USB OTG, Type C
+Interfaces: Gigabit Ethernet, full-size Type-B USB 3.0, USB OTG, USB Type-C
 External Clock Reference: Yes
 Resolution: 12 bits
 RF Bandwidth: 56 MHz
@@ -49,13 +49,13 @@ GPIO: Full 40 Pins
 ![Overview](https://github.com/signalens/signalsdrpro/blob/main/img/transform/layout.png?raw=true)
 ![SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
 
-## SignalSDR Pro versus Others
+## SignalSDR Pro versus others
 
-Checkout Signalens [official page](https://signalens.com/compare/)
+Check out the Signalens [official page](https://signalens.com/compare/).
 
 ## Tutorial and use cases
 
-### Turn SignalSDR Pro into compatible mode (ADALM-PLUTO or USRP B210)
+### Turn SignalSDR Pro into a compatibility mode (ADALM-PLUTO or USRP B210)
 - [Transform into USRP B210 or PlutoSDR](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
 ### How-to
@@ -65,7 +65,7 @@ Checkout Signalens [official page](https://signalens.com/compare/)
 - [MATLAB](https://github.com/signalens/signalsdrpro_docs/blob/main/matlab.md)
 - [GSM Base Station](https://github.com/signalens/signalsdrpro_docs/blob/main/gsmbasestation.md)
 - [GPS Signal Simulator](https://github.com/signalens/signalsdrpro_docs/blob/main/gpssim.md)
-- [GQRX, SDR#, urh and etc](https://github.com/signalens/signalsdrpro_docs/blob/main/easysdr.md)
+- [GQRX, SDR#, URH, etc.](https://github.com/signalens/signalsdrpro_docs/blob/main/easysdr.md)
 
 ### More projects
 - [OpenWiFi](https://github.com/open-sdr/openwifi)
@@ -80,6 +80,6 @@ Checkout Signalens [official page](https://signalens.com/compare/)
 - UHD related
 
 ### Diagram
-- [Indept details of SignalSDRPro](https://github.com/signalens/signalsdrpro/blob/f30ee42cdcbf828d3e0e91d53ce8037099570ae0/diagram/SignalSDRPro%20Logic%20diagrams.pdf)
+- [In-depth details of SignalSDR Pro](https://github.com/signalens/signalsdrpro/blob/f30ee42cdcbf828d3e0e91d53ce8037099570ae0/diagram/SignalSDRPro%20Logic%20diagrams.pdf)
 
-**More ideas and tutorial needed, join us [here](https://github.com/signalens/signalsdrpro/issues)**
+**More ideas and tutorials are needed, join us [here](https://github.com/signalens/signalsdrpro/issues).**

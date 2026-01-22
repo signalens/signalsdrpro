@@ -1,6 +1,8 @@
+SignalSDR Pro can switch into different software-defined radio (SDR) modes, including USRP B210 and ADALM-PLUTO. This is possible because the device boots from an SD card and loads the appropriate FPGA bitstream, firmware, and configuration files for the selected mode. The sections below explain how to prepare the SD card and connect the device for each mode.
+
 ### Device setup
 - Jumper settings
-- Boot from SD card, turn into ADALM-PLUTO compatible mode or USRP B210 compatible mode
+- Boot from SD card, switch to ADALM-PLUTO compatible mode or USRP B210 compatible mode
 ![How to boot](https://github.com/signalens/signalsdrpro/blob/main/img/transform/boot_ins.png?raw=true)
 
 ### Connector layout
@@ -9,8 +11,8 @@
 #### USRP B210 compatible mode
 - Download [signalsdrpro_b210.bin](https://github.com/signalens/signalsdrpro/tree/main/bin/b210) and save as BOOT.BIN
 - Copy BOOT.BIN into SD card root folder
-- Power/Console: USB Type C
-- Data: USB type B
+- Power/Console: USB Type-C
+- Data: USB Type-B
 ![LED](https://github.com/signalens/signalsdrpro/blob/main/img/transform/b210.png?raw=true)
 
 ```
@@ -48,12 +50,12 @@ SDRPRO B210 Hello World
 
 #### ADALM-PLUTO compatible mode
 - Download [all files](https://github.com/signalens/signalsdrpro/tree/main/bin/adalm-pluto/)
-- copy all files into SD card root folder
-- Power/Console: USB Type C
+- Copy all files into SD card root folder
+- Power/Console: USB Type-C
 - Data: Micro USB port 1
 - Receiver: RX1
-- Optional: Also try [tezuka_fw](https://github.com/F5OEO/tezuka_fw) for more advanced feature
-- Username: root Password: analog
+- Optional: Try [tezuka_fw](https://github.com/F5OEO/tezuka_fw) for more advanced features
+- Username: root; Password: analog
 
 ```
 signalsdrpro login: root
@@ -75,12 +77,12 @@ Linux signalsdrpro 6.1.0 #1 SMP PREEMPT Tue Jan 20 11:52:38 CST 2026 armv7l GNU/
 #
 ```
 
-### Reset SPI (Only if stuck at u-boot)
-- Connect to Type C port
+### Reset SPI (Only if stuck at U-Boot)
+- Connect to the Type-C port
 ```
 screen /dev/ttyUSB1 115200
 ```
-- In U-boot mode if SIGNALSDR> appear
+- In U-Boot mode, if SIGNALSDR> appears
 - Option 1: Reset to default environment and save
 ```
 env default -a
