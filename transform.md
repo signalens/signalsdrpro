@@ -11,7 +11,7 @@ SignalSDR Pro can switch into different software-defined radio (SDR) modes, incl
 #### USRP B210 compatible mode
 - Download [signalsdrpro_b210.bin](https://github.com/signalens/signalsdrpro/tree/main/bin/b210) and save as BOOT.BIN
 - Copy BOOT.BIN into SD card root folder
-- Power/Console: USB Type-C
+- Power/Console: USB Type-C (Must be type A to C)
 - Data: USB Type-B
   
 ![LED](https://github.com/signalens/signalsdrpro/blob/main/img/transform/b210.png?raw=true)
@@ -52,7 +52,7 @@ SDRPRO B210 Hello World
 #### ADALM-PLUTO compatible mode
 - Download [all files](https://github.com/signalens/signalsdrpro/tree/main/bin/adalm-pluto/)
 - Copy all files into SD card root folder
-- Power/Console: USB Type-C
+- Power/Console: USB Type-C (Must be type A to C)
 - Data: Micro USB port 1
 - Receiver: RX1
 - Optional: Try [tezuka_fw](https://github.com/F5OEO/tezuka_fw) for more advanced features
