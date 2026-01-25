@@ -64,7 +64,7 @@ Run after intial setup / install
 ```
 docker ps -a | grep 5ghoul
 docker start <DDOCKER_ID>
- docker exec -it <DDOCKER_ID> /bin/bash
+docker exec -it <DDOCKER_ID> /bin/bash
 ```
 
 Testing
@@ -80,6 +80,20 @@ sudo bin/5g_fuzzer --MCC=001 --MNC=01 --GlobalTimeout=false --EnableMutation=tru
 Debug, check for USB latency
 ```
 sudo 3rd-party/oai_5g_sa/cmake_targets/ran_build/build/nr-softmodem --sa --continuous-tx -E -O configs/5gnr_gnb/signalsdrpro.conf
+```
+
+Additional notes:
+- Always complete power cycle before running next round of test
+- Pull of type C and type B port, wait for 2 seconds and plug in again
+- It should detect as "Product: WestBridge" and not "Product: USRP B200"
+- Only after the process runs correctly, it will turn into "Product: USRP B200"
+```
+[500540.534897] usb 3-3: new high-speed USB device number 37 using xhci_hcd
+[500540.671574] usb 3-3: New USB device found, idVendor=2500, idProduct=0020, bcdDevice= 1.00
+[500540.671582] usb 3-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[500540.671583] usb 3-3: Product: WestBridge
+[500540.671585] usb 3-3: Manufacturer: Cypress
+[500540.671585] usb 3-3: SerialNumber: 0000000004BE
 ```
 
 ![Phone baseband](https://github.com/signalens/signalsdrpro/blob/main/img/5ghoul/fuzzing.png?raw=true)
