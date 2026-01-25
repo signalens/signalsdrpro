@@ -59,7 +59,14 @@ IMSI: 001010000000003
 Subscriber Key (K): 00112233445566778899AABBCCDDEEFF
 Operator Key (OPc/OP): 000102030405060708090A0B0C0D0E0F
 ```
-  
+
+Run after intial setup / install
+```
+docker ps -a | grep 5ghoul
+docker start <DDOCKER_ID>
+ docker exec -it <DDOCKER_ID> /bin/bash
+```
+
 Testing
 ```
 sudo bin/5g_fuzzer --MCC=001 --MNC=01 --GlobalTimeout=false --EnableMutation=false
