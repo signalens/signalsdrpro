@@ -65,6 +65,121 @@ FSBL Status = 0x1
 SDRPRO B210 Hello World
 SDRPRO B210 Hello World
 ```
+```
+xwings@hoth:~$ UHD_IMAGES_DIR=/usr/share/uhd/4.8.0/images uhd_usrp_probe
+[INFO] [UHD] linux; GNU C++ version 14.2.0; Boost_108300; UHD_4.8.0.0+ds1-2
+[INFO] [B200] Loading firmware image: /usr/share/uhd/4.8.0/images/usrp_b200_fw.hex...
+[INFO] [B200] Detected Device: B210
+[INFO] [B200] Loading FPGA image: /usr/share/uhd/4.8.0/images/usrp_b210_fpga.bin...
+[INFO] [B200] Operating over USB 3.
+[INFO] [B200] Detecting internal GPSDO....
+[INFO] [GPS] Found an internal GPSDO: GPSTCXO v3.2 for SDRPro
+[INFO] [B200] Initialize CODEC control...
+[INFO] [B200] Initialize Radio control...
+[INFO] [B200] Performing register loopback test...
+[INFO] [B200] Register loopback test passed
+[INFO] [B200] Performing register loopback test...
+[INFO] [B200] Register loopback test passed
+[INFO] [B200] Setting master clock rate selection to 'automatic'.
+[INFO] [B200] Asking for clock rate 16.000000 MHz...
+[INFO] [B200] Actually got clock rate 16.000000 MHz.
+  _____________________________________________________
+ /
+|       Device: B-Series Device
+|     _____________________________________________________
+|    /
+|   |       Mboard: B210
+|   |   serial: 194170
+|   |   name: MyB210
+|   |   product: 2
+|   |   revision: 4
+|   |   FW Version: 8.0
+|   |   FPGA Version: 16.0
+|   |
+|   |   Time sources:  none, internal, external, gpsdo
+|   |   Clock sources: internal, external, gpsdo
+|   |   Sensors: gps_gpgga, gps_gprmc, gps_time, gps_locked, gps_servo, ref_locked
+|   |     _____________________________________________________
+|   |    /
+|   |   |       RX DSP: 0
+|   |   |
+|   |   |   Freq range: -8.000 to 8.000 MHz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       RX DSP: 1
+|   |   |
+|   |   |   Freq range: -8.000 to 8.000 MHz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       RX Dboard: A
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       RX Frontend: A
+|   |   |   |   Name: FE-RX2
+|   |   |   |   Antennas: TX/RX, RX2
+|   |   |   |   Sensors: temp, rssi, lo_locked
+|   |   |   |   Freq range: 50.000 to 6000.000 MHz
+|   |   |   |   Gain range PGA: 0.0 to 76.0 step 1.0 dB
+|   |   |   |   Bandwidth range: 200000.0 to 56000000.0 step 0.0 Hz
+|   |   |   |   Connection Type: IQ
+|   |   |   |   Uses LO offset: No
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       RX Frontend: B
+|   |   |   |   Name: FE-RX1
+|   |   |   |   Antennas: TX/RX, RX2
+|   |   |   |   Sensors: temp, rssi, lo_locked
+|   |   |   |   Freq range: 50.000 to 6000.000 MHz
+|   |   |   |   Gain range PGA: 0.0 to 76.0 step 1.0 dB
+|   |   |   |   Bandwidth range: 200000.0 to 56000000.0 step 0.0 Hz
+|   |   |   |   Connection Type: IQ
+|   |   |   |   Uses LO offset: No
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       RX Codec: A
+|   |   |   |   Name: B210 RX dual ADC
+|   |   |   |   Gain Elements: None
+|   |     _____________________________________________________
+|   |    /
+|   |   |       TX DSP: 0
+|   |   |
+|   |   |   Freq range: -8.000 to 8.000 MHz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       TX DSP: 1
+|   |   |
+|   |   |   Freq range: -8.000 to 8.000 MHz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       TX Dboard: A
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       TX Frontend: A
+|   |   |   |   Name: FE-TX2
+|   |   |   |   Antennas: TX/RX
+|   |   |   |   Sensors: temp, lo_locked
+|   |   |   |   Freq range: 50.000 to 6000.000 MHz
+|   |   |   |   Gain range PGA: 0.0 to 89.8 step 0.2 dB
+|   |   |   |   Bandwidth range: 200000.0 to 56000000.0 step 0.0 Hz
+|   |   |   |   Connection Type: IQ
+|   |   |   |   Uses LO offset: No
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       TX Frontend: B
+|   |   |   |   Name: FE-TX1
+|   |   |   |   Antennas: TX/RX
+|   |   |   |   Sensors: temp, lo_locked
+|   |   |   |   Freq range: 50.000 to 6000.000 MHz
+|   |   |   |   Gain range PGA: 0.0 to 89.8 step 0.2 dB
+|   |   |   |   Bandwidth range: 200000.0 to 56000000.0 step 0.0 Hz
+|   |   |   |   Connection Type: IQ
+|   |   |   |   Uses LO offset: No
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       TX Codec: A
+|   |   |   |   Name: B210 TX dual DAC
+|   |   |   |   Gain Elements: None
+```
 
 #### ADALM-PLUTO compatible mode
 - Download [all files](https://github.com/signalens/signalsdrpro/tree/main/bin/adalm-pluto/)
