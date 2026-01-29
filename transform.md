@@ -1,3 +1,5 @@
+### Transforming into compatible mode
+
 SignalSDR Pro can switch into different software-defined radio (SDR) modes, including USRP B210 and ADALM-PLUTO. This is possible because the device boots from an SD card and loads the appropriate FPGA bitstream, firmware, and configuration files for the selected mode. The sections below explain how to prepare the SD card and connect the device for each mode.
 
 ### Device setup
