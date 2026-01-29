@@ -11,8 +11,26 @@ SignalSDR Pro can switch into different software-defined radio (SDR) modes, incl
 #### USRP B210 compatible mode
 - Download [signalsdrpro_b210.bin](https://github.com/signalens/signalsdrpro/tree/main/bin/b210) and save as BOOT.BIN
 - Copy BOOT.BIN into SD card root folder
-- Power/Console: USB Type-C
+- Power/Console: USB Type-C (Must be type A to C)
 - Data: USB Type-B
+- Additional notes:
+  - Always complete power cycle before running next round of test
+  - Pull of type C and type B port, wait for 2 seconds and plug in again
+  - It should detect as "Product: WestBridge" and NOT "Product: USRP B200"
+  - Only after the process runs correctly, it will turn into "Product: USRP B200"
+```
+[500540.671574] usb 3-3: New USB device found, idVendor=2500, idProduct=0020, bcdDevice= 1.00
+[500540.671582] usb 3-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[500540.671583] usb 3-3: Product: WestBridge
+[500540.671585] usb 3-3: Manufacturer: Cypress
+```
+```
+[499983.760504] usb 4-3: New USB device found, idVendor=2500, idProduct=0020, bcdDevice= 0.00
+[499983.760507] usb 4-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[499983.760509] usb 4-3: Product: USRP B200
+[499983.760510] usb 4-3: Manufacturer: Ettus Research LLC
+```
+  
 ![LED](https://github.com/signalens/signalsdrpro/blob/main/img/transform/b210.png?raw=true)
 
 ```
@@ -51,7 +69,7 @@ SDRPRO B210 Hello World
 #### ADALM-PLUTO compatible mode
 - Download [all files](https://github.com/signalens/signalsdrpro/tree/main/bin/adalm-pluto/)
 - Copy all files into SD card root folder
-- Power/Console: USB Type-C
+- Power/Console: USB Type-C (Must be type A to C)
 - Data: Micro USB port 1
 - Receiver: RX1
 - Optional: Try [tezuka_fw](https://github.com/F5OEO/tezuka_fw) for more advanced features

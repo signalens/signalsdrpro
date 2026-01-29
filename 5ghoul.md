@@ -59,7 +59,14 @@ IMSI: 001010000000003
 Subscriber Key (K): 00112233445566778899AABBCCDDEEFF
 Operator Key (OPc/OP): 000102030405060708090A0B0C0D0E0F
 ```
-  
+
+Run after intial setup / install
+```
+docker ps -a | grep 5ghoul
+docker start <DDOCKER_ID>
+docker exec -it <DDOCKER_ID> /bin/bash
+```
+
 Testing
 ```
 sudo bin/5g_fuzzer --MCC=001 --MNC=01 --GlobalTimeout=false --EnableMutation=false
@@ -74,5 +81,8 @@ Debug, check for USB latency
 ```
 sudo 3rd-party/oai_5g_sa/cmake_targets/ran_build/build/nr-softmodem --sa --continuous-tx -E -O configs/5gnr_gnb/signalsdrpro.conf
 ```
+
+If everything fail, please check
+- Turn SignalSDR Pro into USDP B210 compatible mode [How](https://github.com/signalens/signalsdrpro_docs/blob/main/transform.md)
 
 ![Phone baseband](https://github.com/signalens/signalsdrpro/blob/main/img/5ghoul/fuzzing.png?raw=true)
