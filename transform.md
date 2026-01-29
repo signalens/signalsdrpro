@@ -8,7 +8,7 @@ SignalSDR Pro can switch into different software-defined radio (SDR) modes, incl
 ### Connector layout
 ![Overview](https://github.com/signalens/signalsdrpro/blob/main/img/transform/layout.png?raw=true)
 
-#### USRP B210 compatible mode
+### USRP B210 compatible mode
 - Download [signalsdrpro_b210.bin](https://github.com/signalens/signalsdrpro/tree/main/bin/b210) and save as BOOT.BIN
 - Copy BOOT.BIN into SD card root folder
 - Power/Console: USB Type-C (Must be type A to C)
@@ -181,7 +181,7 @@ xwings@hoth:~$ UHD_IMAGES_DIR=/usr/share/uhd/4.8.0/images uhd_usrp_probe
 |   |   |   |   Gain Elements: None
 ```
 
-#### ADALM-PLUTO compatible mode
+### ADALM-PLUTO compatible mode
 - Download [all files](https://github.com/signalens/signalsdrpro/tree/main/bin/adalm-pluto/)
 - Copy all files into SD card root folder
 - Power/Console: USB Type-C (Must be type A to C)
