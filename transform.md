@@ -11,7 +11,8 @@ SignalSDR Pro can switch into different software-defined radio (SDR) modes, incl
 ![Overview](https://github.com/signalens/signalsdrpro/blob/main/img/transform/layout.png?raw=true)
 
 ### USRP B210 compatible mode
-- Download [signalsdrpro_b210.bin](https://github.com/signalens/signalsdrpro/tree/main/bin/b210) and save as BOOT.BIN
+- Download [Firmware](https://github.com/signalens/signalsdrpro/tree/main/bin/b210/v3/BOOT.bin) and save as BOOT.BIN
+- GPIO pinout refer to gpio.cpp
 - Copy BOOT.BIN into SD card root folder
 - Power/Console: USB Type-C (Must be type A to C)
 - Data: USB Type-B
